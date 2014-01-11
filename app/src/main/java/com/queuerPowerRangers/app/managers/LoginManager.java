@@ -1,5 +1,7 @@
 package com.queuerPowerRangers.app.managers;
 
+import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
+
 /**
  * Created by Ross on 1/7/14.
  */

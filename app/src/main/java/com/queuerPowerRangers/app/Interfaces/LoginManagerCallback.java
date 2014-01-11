@@ -1,4 +1,4 @@
-package com.queuerPowerRangers.app.managers;
+package com.queuerPowerRangers.app.Interfaces;
 
 /**
  * Created by Ross on 1/7/14.
