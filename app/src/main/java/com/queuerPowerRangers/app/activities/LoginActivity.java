@@ -1,7 +1,6 @@
 package com.queuerPowerRangers.app.activities;
 
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,10 +8,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
+import android.widget.Button;
+import android.widget.EditText;
 
 import com.queuerPowerRangers.app.R;
-import com.queuerPowerRangers.app.managers.LoginManagerCallback;
+import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
+import com.queuerPowerRangers.app.managers.LoginManager;
 
 public class LoginActivity extends ActionBarActivity implements LoginManagerCallback {
 
