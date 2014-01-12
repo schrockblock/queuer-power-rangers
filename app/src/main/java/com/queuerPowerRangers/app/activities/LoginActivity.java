@@ -23,7 +23,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         setContentView(R.layout.activity_login);
 
         Button login = (Button)findViewById(R.id.btn_login);
-        final EditText user = (EditText)fiedViewById(R.id.et_username);
+        final EditText user = (EditText)fieldViewById(R.id.et_username);
         final EditText pass = (EditText)findViewById(R.id.et_password);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
