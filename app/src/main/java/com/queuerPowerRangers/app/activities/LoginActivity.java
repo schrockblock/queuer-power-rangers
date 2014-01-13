@@ -15,7 +15,7 @@ import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 import com.queuerPowerRangers.app.managers.LoginManager;
 
-public class LoginActivity extends ActionBarActivity implements LoginManagerCallback {
+public class LoginActivity extends ActionBarActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         setContentView(R.layout.activity_login);
 
         Button login = (Button)findViewById(R.id.btn_login);
-        final EditText user = (EditText)fieldViewById(R.id.et_username);
+        final EditText user = (EditText)findViewById(R.id.et_username);
         final EditText pass = (EditText)findViewById(R.id.et_password);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +66,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
     public static class PlaceholderFragment extends Fragment {
 
         public PlaceholderFragment() {
+            
         }
 
         @Override
