@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
@@ -63,10 +64,10 @@ public class LoginActivity extends ActionBarActivity{
     /**
      * A placeholder fragment containing a simple view.
      */
-    public static class PlaceholderFragment extends Fragment {
+    public static class LoginPageFragment extends Fragment {
 
-        public PlaceholderFragment() {
-            
+        public LoginPageFragment() {
+
         }
 
         @Override
