@@ -48,7 +48,7 @@ public class LoginManager {
         String passfield = gson.toJson(R.string.password);
         String passtext = gson.toJson(password);
 
-        
+
 
     }
 
