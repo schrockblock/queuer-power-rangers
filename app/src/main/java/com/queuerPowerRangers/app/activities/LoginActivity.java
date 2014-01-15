@@ -10,9 +10,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.widget.*;
+
 
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.managers.LoginManagerCallback;
+import com.queuerPowerRangers.app.managers.LoginManager;
 
 public class LoginActivity extends ActionBarActivity implements LoginManagerCallback {
 
@@ -21,8 +24,11 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        getActionBar().setTitle("Hello world App");
+        getSupportActionBar().setTitle("Hello world App");
+
         Button login = (Button)findViewById(R.id.btn_login);
-        final EditText user = (EditText)fiedViewById(R.id.et_username);
+        final EditText user = (EditText)findViewById(R.id.et_username);
         final EditText pass = (EditText)findViewById(R.id.et_password);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +44,13 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         });
     }
 
+    public void startedRequest() {
+        return;
+    }
+
+    public void finishedRequest(boolean successful) {
+        return;
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
