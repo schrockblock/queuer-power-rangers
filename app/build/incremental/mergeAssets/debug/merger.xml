@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ComAndroidSupportAppcompatV71900.aar" >
+        <source path="/Users/Anthoney/AndroidStudioProjects/QueuerPowerRangers/app/build/exploded-bundles/ComAndroidSupportAppcompatV71900.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/Anthoney/AndroidStudioProjects/QueuerPowerRangers/app/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/Anthoney/AndroidStudioProjects/QueuerPowerRangers/app/src/debug/assets" />
+    </dataSet>
+
+</merger>
