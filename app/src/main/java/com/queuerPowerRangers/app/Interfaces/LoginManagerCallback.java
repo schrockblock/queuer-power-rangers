@@ -8,4 +8,3 @@ public interface LoginManagerCallback {
     public void startedRequest();
     public void finishedRequest(boolean successful);
 }
-

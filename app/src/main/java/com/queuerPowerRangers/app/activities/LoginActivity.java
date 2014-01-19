@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.queuerPowerRangers.app.R;
@@ -21,16 +22,17 @@ public class LoginActivity extends ActionBarActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.fragment_login);
 
         Button login = (Button)findViewById(R.id.btn_login);
+        ProgressBar progress = (ProgressBar) findViewById(R.id.progress_login);
         final EditText user = (EditText)findViewById(R.id.et_username);
         final EditText pass = (EditText)findViewById(R.id.et_password);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 LoginManager manager = new LoginManager();
-                // manager.setCallback(LoginActivity.this);
+                 manager.setCallback((LoginManagerCallback) LoginActivity.this);
                 try {
                     manager.login(user.getText().toString(), pass.getText().toString());
                 } catch (Exception e) {
@@ -77,5 +79,4 @@ public class LoginActivity extends ActionBarActivity{
             return rootView;
         }
     }
-
-}
+    }

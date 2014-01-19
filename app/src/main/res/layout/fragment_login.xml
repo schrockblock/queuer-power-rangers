@@ -1,6 +1,7 @@
 <LinearLayout android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -48,6 +49,7 @@
         android:textColor="#0b84aa"/>
 
     <ProgressBar
+        android:id="@+id/login_progress"
         android:layout_width="@dimen/abc_action_bar_default_height"
         android:layout_height="@dimen/abc_action_bar_default_height"
          android:visibility="invisible"
