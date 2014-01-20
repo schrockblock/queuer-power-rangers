@@ -867,7 +867,7 @@ containing a value of this type.
         public static final int undo_btn_bg_pressed=0x7f02005c;
     }
     public static final class id {
-        public static final int action_add_task=0x7f07004a;
+        public static final int action_add_task=0x7f07004c;
         public static final int action_bar=0x7f07001c;
         public static final int action_bar_activity_content=0x7f070014;
         public static final int action_bar_container=0x7f07001b;
@@ -879,7 +879,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f070015;
         public static final int action_menu_presenter=0x7f070016;
         public static final int action_mode_close_button=0x7f070024;
-        public static final int action_settings=0x7f070049;
+        public static final int action_settings=0x7f07004b;
         public static final int activity_chooser_view_content=0x7f070025;
         public static final int activity_feed=0x7f07003c;
         public static final int always=0x7f07000f;
@@ -913,9 +913,10 @@ containing a value of this type.
         public static final int never=0x7f07000d;
         public static final int none=0x7f070009;
         public static final int normal=0x7f070000;
+        public static final int position=0x7f070047;
         public static final int progress_circular=0x7f070018;
         public static final int progress_horizontal=0x7f070019;
-        public static final int progress_login=0x7f070046;
+        public static final int progress_login=0x7f070048;
         public static final int radio=0x7f07002f;
         public static final int search_badge=0x7f070032;
         public static final int search_bar=0x7f070031;
@@ -934,11 +935,12 @@ containing a value of this type.
         public static final int split_action_bar=0x7f07001e;
         public static final int submit_area=0x7f070039;
         public static final int tabMode=0x7f070002;
-        public static final int text=0x7f070047;
+        public static final int task=0x7f070046;
+        public static final int text=0x7f070049;
         public static final int title=0x7f07002b;
         public static final int top_action_bar=0x7f070020;
         public static final int tv_title=0x7f070045;
-        public static final int undo=0x7f070048;
+        public static final int undo=0x7f07004a;
         public static final int up=0x7f070021;
         public static final int useLogo=0x7f070003;
         public static final int withText=0x7f070010;

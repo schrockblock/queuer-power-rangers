@@ -240,7 +240,7 @@ int drawable popup_bg 0x7f020059
 int drawable undo_btn_bg 0x7f02005a
 int drawable undo_btn_bg_focused 0x7f02005b
 int drawable undo_btn_bg_pressed 0x7f02005c
-int id action_add_task 0x7f07004a
+int id action_add_task 0x7f07004c
 int id action_bar 0x7f07001c
 int id action_bar_activity_content 0x7f070014
 int id action_bar_container 0x7f07001b
@@ -252,7 +252,7 @@ int id action_context_bar 0x7f07001d
 int id action_menu_divider 0x7f070015
 int id action_menu_presenter 0x7f070016
 int id action_mode_close_button 0x7f070024
-int id action_settings 0x7f070049
+int id action_settings 0x7f07004b
 int id activity_chooser_view_content 0x7f070025
 int id activity_feed 0x7f07003c
 int id always 0x7f07000f
@@ -286,9 +286,10 @@ int id middle 0x7f07000b
 int id never 0x7f07000d
 int id none 0x7f070009
 int id normal 0x7f070000
+int id position 0x7f070047
 int id progress_circular 0x7f070018
 int id progress_horizontal 0x7f070019
-int id progress_login 0x7f070046
+int id progress_login 0x7f070048
 int id radio 0x7f07002f
 int id search_badge 0x7f070032
 int id search_bar 0x7f070031
@@ -307,11 +308,12 @@ int id showTitle 0x7f070006
 int id split_action_bar 0x7f07001e
 int id submit_area 0x7f070039
 int id tabMode 0x7f070002
-int id text 0x7f070047
+int id task 0x7f070046
+int id text 0x7f070049
 int id title 0x7f07002b
 int id top_action_bar 0x7f070020
 int id tv_title 0x7f070045
-int id undo 0x7f070048
+int id undo 0x7f07004a
 int id up 0x7f070021
 int id useLogo 0x7f070003
 int id withText 0x7f070010
