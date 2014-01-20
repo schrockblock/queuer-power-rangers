@@ -1,0 +1,58 @@
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.queuerPowerRangers.app.activities.LoginActivity$PlaceholderFragment">
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/et_username"
+        android:hint="@string/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:id="@+id/et_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_gravity="center"
+        android:text="@string/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        android:visibility="invisible"
+        android:layout_width="@dimen/abc_action_bar_default_height"
+        android:layout_height="@dimen/abc_action_bar_default_height" />
+
+    <TextView android:id="@+id/create_account"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="40dip"
+        android:text="@string/create_account"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#0b84aa"/>
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        android:layout_width="@dimen/abc_action_bar_default_height"
+        android:layout_height="@dimen/abc_action_bar_default_height"
+         android:visibility="invisible"
+         />
+</LinearLayout>
+<!-- From: file:/C:/Users/Rotios/Documents/GitHub/queuer-power-rangers/app/src/main/res/layout/fragment_login.xml -->
