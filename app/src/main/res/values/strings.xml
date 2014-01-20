@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Task Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_task">Settings</string>
+    <string name="login_button">Login</string>
+    <string name="undo">Undo</string>
+    <string name="undo_all">Undo All</string>
+    <string name="item_deleted">Item deleted</string>
+    <string name="n_items_deleted">%1$s items deleted</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="create_account">Create an Account</string>
+    <string name="website_login">http://queuer-rndapp.rhcloud.com/api/v1/session</string>
+    <string name="website_create">http://queuer-rndapp.rhcloud.com/api/v1/users</string>
+
+</resources>
