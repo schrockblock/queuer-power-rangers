@@ -1,5 +1,9 @@
 package com.queuer.app.activities;
 
+import com.queuer.app.adapters.ProjectAdapter;
+
+import java.util.ArrayList;
+
 /**
  * Created by Anthoney on 1/17/14.
  */

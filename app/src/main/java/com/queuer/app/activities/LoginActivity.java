@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.widget.Button;
+import android.widget.EditText;
 
 import com.queuer.app.R;
 
@@ -18,13 +20,20 @@ public class LoginActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.fragment_login);
 
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new PlaceholderFragment())
-                    .commit();
+        Button login = (Button)findViewById(R.id.btn_login);
+        final EditText user = (EditText)findViewById(R.id.et_username);
+        final EditText pass = (EditText)findViewById(R.id.et_password);
+        login.setOnClickListener((v) -> {
+            LoginManager manager = LoginManager.getInstance();
+            manager.setCallback(LoginActivity.this, LoginActivity.this);
+            try {
+                manager.login(user.getText().toString(), pass.getText().toString());
+            } catch (Exception e) {
+                e.printStackTrace();
         }
+        });
     }
 
 

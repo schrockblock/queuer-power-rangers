@@ -17,6 +17,9 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.queuer.app.Constants;
+import com.queuer.app.QueuerApplication;
+import com.queuer.app.models.SignInModel;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 
 import android.content.Context;
@@ -39,6 +42,8 @@ import android.widget.TextView;
 import com.queuer.app.R;
 import com.queuer.app.interfaces.LoginManagerCallback;
 import com.queuer.app.managers.LoginManager;
+
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
@@ -55,6 +60,16 @@ public class LoginManager {
     public void setCallback(Context context, LoginManagerCallback callback) {
         this.callback = callback;
         this.context = context;
+    }
+
+    protected LoginManager(){
+
+    }
+
+    public static LoginManager getInstance() {
+        if(instance == null) {
+            instance = new LoginManager();
+        } return instance;
     }
 
     public void login(String username, String password) throws Exception {
@@ -91,35 +106,29 @@ public class LoginManager {
     }
 
 
-    private void authenticate(String username, String password) {
-
-
-        Gson gson = (Gson) new Gson();
-        String userfield = gson.toJson(R.string.username);
-        String passfield = gson.toJson(R.string.password);
-        String passtext = gson.toJson(password);
-        JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, R.string.website_login, new JSONObject(new Gson().toJson(null, null), new Response.Listener<JSONObject>() {
-            @Override
-            public void onResponse(JSONObject jsonObject) {
-                if (true){
-                    try {
-                        authenticatedSuccessfully();
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                } else try {
-                    authenticatedUnsuccessfully();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        }){
-
-
-
+    private void authenticate(String username, String password){
+        SignInModel model = new SignInModel(username, password);
+        JSONObject signInJson = null;
+        try {
+            signInJson = new JSONObject(new Gson().toJson(model));
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
-                callback.startedRequest();
-        newRequestQueue(context);
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST,
+                Constants.QUEUER_SESSION_URL,
+                signInJson, new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                // handle response (are there errors?)
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                // deal with it
+            }
+        });
+
+        ((QueuerApplication)context.getApplicationContext()).getRequestQueue().add(request);
     }
     private void authenticatedSuccessfully() throws Exception {
         if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
@@ -129,12 +138,6 @@ public class LoginManager {
     private void authenticatedUnsuccessfully() throws Exception {
         if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
         callback.finishedRequest(false);
-    }
-    public static LoginManager getInstance() {
-        if(instance == null) {
-            instance = null;
-        }
-        return instance;
     }
 
     public AssetManager getAssets() {

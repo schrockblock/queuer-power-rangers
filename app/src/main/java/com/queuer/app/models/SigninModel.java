@@ -3,9 +3,12 @@ package com.queuer.app.models;
 /**
  * Created by Anthoney on 1/17/14.
  */
-public class SigninModel {
+public class SignInModel {
     private String username;
     private String password;
+
+    public SignInModel(String username, String password) {
+    }
 
     public String getUsername() {
         return username;

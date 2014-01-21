@@ -44,7 +44,7 @@ package com.queuer.app.views;
         import android.widget.PopupWindow;
         import android.widget.TextView;
 
-        import com.queuerPowerRangers.app.R;
+        import com.queuer.app.R;
 
         import com.nineoldandroids.animation.Animator;
         import com.nineoldandroids.animation.AnimatorListenerAdapter;
@@ -54,7 +54,7 @@ package com.queuer.app.views;
         import com.nineoldandroids.animation.ValueAnimator;
         import com.nineoldandroids.view.ViewHelper;
         import com.nineoldandroids.view.ViewPropertyAnimator;
-        import com.queuerPowerRangers.app.Interfaces.RearrangementListener;
+        import com.queuer.app.interfaces.RearrangementListener;
 
         import java.util.ArrayList;
         import java.util.Collections;
