@@ -1,1 +1,5 @@
 /build
+echo "*.iml" >> .gitignore
+echo ".idea/*" >> .gitignore
+echo "*.DS_Store" >> .gitignore
+
