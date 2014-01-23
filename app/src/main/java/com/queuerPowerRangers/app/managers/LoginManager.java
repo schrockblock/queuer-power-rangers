@@ -19,6 +19,7 @@ public class LoginManager {
 
     private void authenticate(String username, String password) {
 
+
     }
 
     private void authenticatedSuccessfully() throws Exception {
