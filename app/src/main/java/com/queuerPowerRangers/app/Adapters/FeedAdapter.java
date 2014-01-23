@@ -28,6 +28,7 @@ public class FeedAdapter extends BaseAdapter implements RearrangementListener{
         this.projects = projects;
     }
 
+
     @Override
     public boolean areAllItemsEnabled() {
         return true;

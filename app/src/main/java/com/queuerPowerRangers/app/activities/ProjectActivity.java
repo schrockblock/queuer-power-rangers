@@ -1,4 +1,4 @@
-package com.demo.queuer.activities;
+package com.queuerPowerRangers.app.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

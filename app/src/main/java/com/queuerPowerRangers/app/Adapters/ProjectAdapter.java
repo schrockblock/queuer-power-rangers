@@ -109,10 +109,14 @@ public class ProjectAdapter extends BaseAdapter implements RearrangementListener
 
     @Override
     public void swapElements(int indexOne, int indexTwo) {
-        Task temp = getItem(indexOne);
+        Task temp1 = getItem(indexOne);
+        Task temp2 = getItem(indexTwo);
+
         tasks.remove(indexOne);
-        tasks.add(indexOne, getItem(indexTwo));
-        tasks.add(indexTwo, temp);
+        tasks.add(indexOne, temp2);
+
+        tasks.remove(indexTwo);
+        tasks.add(indexTwo, temp1);
     }
 
     @Override

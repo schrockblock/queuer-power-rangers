@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="volley">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/.idea/libraries/volley.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/src/main/Libs/volley.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
