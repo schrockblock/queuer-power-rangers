@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/progress_login"
+    tools:context="com.queuerPowerRangers.app.managers.LoginManager">
+
+
+
+
+</LinearLayout>
+
+<!-- From: file:/C:/Users/Rotios/Documents/GitHub/queuer-power-rangers/app/src/main/res/layout/progress_bar.xml -->

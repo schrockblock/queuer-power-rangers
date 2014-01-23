@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.queuerPowerRangers.app.Views.EnhancedListView
+        android:id="@+id/activity_feed"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+</LinearLayout><!-- From: file:/C:/Users/Rotios/Documents/GitHub/queuer-power-rangers/app/src/main/res/layout/activity_feed.xml -->

@@ -1,6 +1,7 @@
 <LinearLayout android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -23,16 +24,28 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 
+    <CheckBox
+        android:text="Remember Me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/remember"/>
     <Button
         android:id="@+id/btn_login"
         android:layout_gravity="center"
         android:text="@string/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/login_unsuccessful"
+        android:text="Login Unsuccessful"
+        android:editable="false"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
 
     <ProgressBar
         android:id="@+id/login_progress"
-        android:visibility="invisible"
+        android:visibility="gone"
         android:layout_width="@dimen/abc_action_bar_default_height"
         android:layout_height="@dimen/abc_action_bar_default_height" />
 
@@ -46,10 +59,4 @@
         android:gravity="center"
         android:textSize="20sp"
         android:textColor="#0b84aa"/>
-
-    <ProgressBar
-        android:layout_width="@dimen/abc_action_bar_default_height"
-        android:layout_height="@dimen/abc_action_bar_default_height"
-         android:visibility="invisible"
-         />
-</LinearLayout>
+    </LinearLayout>
