@@ -7,6 +7,7 @@ import android.widget.ListView;
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.adapters.FeedAdapter;
 import com.queuerPowerRangers.app.models.Project;
+import com.queuerPowerRangers.app.views.EnhancedListView;
 
 import java.util.ArrayList;
 
@@ -25,7 +26,7 @@ public class FeedActivity extends ActionBarActivity {
             projects.add(new Project(i, "Project: " + i));
         }
 
-        ListView listView = (ListView) findViewById(R.id.ll_project);
+        EnhancedListView listView = (EnhancedListView) findViewById(R.id.lv_projects);
         listView.setAdapter(new FeedAdapter(this, projects));
     }
 

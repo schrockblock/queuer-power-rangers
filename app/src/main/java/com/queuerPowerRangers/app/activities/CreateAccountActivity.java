@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.*;
 
 import com.queuerPowerRangers.app.R;
-import com.queuerPowerRangers.app.managers.LoginManagerCallback;
+import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 
 /**
  * Created by Michael on 1/12/14.

@@ -5,45 +5,37 @@ import android.database.DataSetObserver;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.models.Project;
+import com.queuerPowerRangers.app.Interfaces.RearrangementListener;
 
 import java.util.ArrayList;
 
 /**
  * Created by Michael on 1/15/14.
  */
-public class FeedAdapter implements ListAdapter {
 
-    private ArrayList<Project> projects = new ArrayList<Project>();
+public class FeedAdapter extends BaseAdapter implements RearrangementListener{
     private Context context;
+    private ArrayList<Project> projects = new ArrayList<Project>();
 
     public FeedAdapter(Context context, ArrayList<Project> projects) {
-        this.projects = projects;
         this.context = context;
+        this.projects = projects;
     }
 
-    @Override
-    public boolean areAllItemsEnabled() {
-        return true;
+    public void remove(int position) {
+        projects.remove(position);
+        notifyDataSetChanged();
     }
 
-    @Override
-    public boolean isEnabled(int i) {
-        return false;
-    }
-
-    @Override
-    public void registerDataSetObserver(DataSetObserver dataSetObserver) {
-
-    }
-
-    @Override
-    public void unregisterDataSetObserver(DataSetObserver dataSetObserver) {
-
+    public void insert(Project project, int position){
+        projects.add(position, project);
+        notifyDataSetChanged();
     }
 
     @Override
@@ -52,13 +44,13 @@ public class FeedAdapter implements ListAdapter {
     }
 
     @Override
-    public Project getItem(int i) {
-        return projects.get(i);
+    public Project getItem(int position) {
+        return projects.get(position);
     }
 
     @Override
-    public long getItemId(int i) {
-        return projects.get(i).getId();
+    public long getItemId(int position) {
+        return getItem(position).getId();
     }
 
     @Override
@@ -68,28 +60,41 @@ public class FeedAdapter implements ListAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        if(convertView == null) {
+
+        if (convertView == null){
             convertView = LayoutInflater.from(context).inflate(R.layout.list_projects, null);
         }
 
-        ((TextView) convertView.findViewById(R.id.tv_title)).setText(getItem(position).getTitle());
+        ((TextView)convertView.findViewById(R.id.tv_title)).setText(getItem(position).getTitle());
         convertView.findViewById(R.id.ll_project).setBackgroundColor(getItem(position).getColor());
 
         return convertView;
     }
 
     @Override
-    public int getItemViewType(int i) {
-        return 0;
-    }
-
-    @Override
-    public int getViewTypeCount() {
-        return 0;
-    }
-
-    @Override
     public boolean isEmpty() {
-        return false;
+        return projects.isEmpty();
+    }
+
+    @Override
+    public void onStartedRearranging() {
+
+    }
+
+    @Override
+    public void swapElements(int indexOne, int indexTwo) {
+        Project temp1 = projects.get(indexOne);
+        Project temp2 = projects.get(indexTwo);
+
+        projects.remove(indexOne);
+        projects.add(indexOne, temp2);
+
+        projects.remove(indexTwo);
+        projects.add(indexTwo, temp1);
+    }
+
+    @Override
+    public void onFinishedRearranging() {
+
     }
 }
