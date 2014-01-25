@@ -38,3 +38,6 @@ dependencies {
     compile files('C:/Users/Rotios/Documents/GitHub/queuer-power-rangers/.idea/libraries/volley.jar')
     compile files('C:/Users/Rotios/Documents/GitHub/queuer-power-rangers/.idea/libraries/nineoldandroids-2.4.0.jar')
 }
+
+
+
