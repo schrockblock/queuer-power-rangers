@@ -30,11 +30,12 @@
         />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/create_button"
         android:layout_gravity="center"
         android:text="@string/create_account"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:onClick="create_account"/>
 
     <include layout="@layout/progress_bar"
         android:id="@+id/progressbar_layout" />
