@@ -9,25 +9,25 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.queuerPowerRangers.app.Interfaces.RearrangementListener;
+import com.queuerPowerRangers.app.Models.Task;
+import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.R;
-import com.queuerPowerRangers.app.Models.Project;
 
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 
 /**
- * Created by Rotios on 1/15/14.
+ * Created by Rotios on 1/17/14.
  */
-public class FeedAdapter extends BaseAdapter implements RearrangementListener{
+public class ProjectAdapter extends BaseAdapter implements RearrangementListener {
     private Context context;
-    private ArrayList<Project> projects = new ArrayList<Project>();
+    private ArrayList<Task> tasks = new ArrayList<Task>();
 
-    public FeedAdapter(Context context, ArrayList<Project> projects) {
+    public ProjectAdapter(Context context, ArrayList<Task> tasks) {
         this.context = context;
-        this.projects = projects;
+        this.tasks = tasks;
     }
-
 
     @Override
     public boolean areAllItemsEnabled() {
@@ -51,12 +51,12 @@ public class FeedAdapter extends BaseAdapter implements RearrangementListener{
 
     @Override
     public int getCount() {
-        return projects.size();
+        return tasks.size();
     }
 
     @Override
-    public Project getItem(int position) {
-        return projects.get(position);
+    public Task getItem(int position) {
+        return tasks.get(position);
     }
 
     @Override
@@ -72,22 +72,21 @@ public class FeedAdapter extends BaseAdapter implements RearrangementListener{
     @Nullable
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
-    if(convertView == null){
-        convertView = LayoutInflater.from(context).inflate(R.layout.list_project, null);
-    }
-        ((TextView)convertView.findViewById(R.id.tv_title)).setText(getItem(position).getTitle());
-convertView.findViewById(R.id.linear_project).setBackgroundColor(getItem(position).getColor());
+        if(convertView == null){
+            convertView = LayoutInflater.from(context).inflate(R.layout.list_project, null);
+        }
+        ((TextView)convertView.findViewById(R.id.tv_title)).setText(getItem(position).getName());
         return convertView;
     }
 
     public void remove(int position){
-        projects.remove(position);
+        tasks.remove(position);
         notifyDataSetChanged();
     }
-    public void insert(Project project, int position){
-    projects.add(position, project);
+    public void insert(Task project, int position){
+        tasks.add(position, project);
         notifyDataSetChanged();
-}
+    }
     @Override
     public int getItemViewType(int i) {
         return 0;
@@ -100,23 +99,27 @@ convertView.findViewById(R.id.linear_project).setBackgroundColor(getItem(positio
 
     @Override
     public boolean isEmpty() {
-        return projects.isEmpty();
+        return tasks.isEmpty();
     }
 
-
+    @Override
     public void onStartedRearranging() {
 
     }
 
-
+    @Override
     public void swapElements(int indexOne, int indexTwo) {
-    Project temp = getItem(indexOne);
-        projects.remove(indexOne);
-        projects.add(indexOne, getItem(indexTwo));
-        projects.add(indexTwo, temp);
+        Task temp1 = getItem(indexOne);
+        Task temp2 = getItem(indexTwo);
+
+        tasks.remove(indexOne);
+        tasks.add(indexOne, temp2);
+
+        tasks.remove(indexTwo);
+        tasks.add(indexTwo, temp1);
     }
 
-
+    @Override
     public void onFinishedRearranging() {
 
     }

@@ -40,6 +40,4 @@
     <include layout="@layout/progress_bar"
         android:id="@+id/progressbar_layout" />
 
-
-
 </LinearLayout>
