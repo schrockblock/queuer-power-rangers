@@ -1,6 +1,8 @@
 package com.queuerPowerRangers.app.managers;
 
 import com.android.volley.Network;
+import com.android.volley.NetworkResponse;
+import com.android.volley.ParseError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -8,12 +10,14 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.BasicNetwork;
 import com.android.volley.toolbox.DiskBasedCache;
 import com.android.volley.toolbox.HttpClientStack;
+import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.HttpStack;
 import com.android.volley.toolbox.HurlStack;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonSyntaxException;
 import com.queuerPowerRangers.app.Packages.Constants;
 import com.queuerPowerRangers.app.Packages.QueuerApplication;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
@@ -28,6 +32,7 @@ import android.provider.SyncStateContract;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -47,6 +52,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
+import java.io.UnsupportedEncodingException;
 
 import static com.queuerPowerRangers.app.Packages.Constants.QUEUER_SESSION_URL;
 
@@ -56,6 +62,7 @@ import static com.queuerPowerRangers.app.Packages.Constants.QUEUER_SESSION_URL;
 public class LoginManager{
     private Context context;
     private LoginManagerCallback callback;
+    private QueuerApplication application = new QueuerApplication();
 
     private static LoginManager instance = null;
     protected LoginManager(){}
@@ -77,43 +84,73 @@ public class LoginManager{
     }
 
     private void authenticate(String username, String password){
+        application.setRequestQueue(Volley.newRequestQueue(context));
         SignInModel model = new SignInModel(username, password);
         JSONObject signInJson = null;
+        String jsonString = new Gson().toJson(model);
         try {
-            signInJson = new JSONObject(new Gson().toJson(model));
+            Log.d("LoginManager", "This happened" + jsonString );
+            signInJson = new JSONObject(jsonString);
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, QUEUER_SESSION_URL, signInJson, new Response.Listener<JSONObject>() {
-            @Override
-            public void onResponse(JSONObject response) {
-               try {
-                    authenticatedSuccessfully();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                try {
-                    authenticatedUnsuccessfully();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
 
-        ((QueuerApplication)context.getApplicationContext()).getRequestQueue().add(request);
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, Constants.QUEUER_SESSION_URL, signInJson, createListener(), createErrorListener()) {
+            protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
+                try {
+                    String json = new String(
+                            response.data, HttpHeaderParser.parseCharset(response.headers));
+                    return Response.success(
+                            new Gson().fromJson(json, JSONObject.class), HttpHeaderParser.parseCacheHeaders(response));
+                }catch (UnsupportedEncodingException e) {
+                    return Response.error(new ParseError(e));
+                }catch (JsonSyntaxException e) {
+                    return Response.error(new ParseError(e));
+                }
+            }
+        };
+        application.getRequestQueue().add(request);
     }
+
 
     private void authenticatedSuccessfully() throws Exception{
         if (callback == null) throw new Exception("Must supply a LoginManagerCallback");
-        callback.finishedRequest(true);
+            callback.finishedRequest(true);
     }
 
     private void authenticatedUnsuccessfully() throws Exception{
         if (callback == null) throw new Exception("Must supply a LoginManagerCallback");
-        callback.finishedRequest(false);
+            callback.finishedRequest(false);
     }
+
+    private Response.ErrorListener createErrorListener(){
+     return new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                if (error.networkResponse != null) {
+                    Log.d("LoginActivity", "Error Response code: " + error.networkResponse.statusCode);
+                    try {
+                        authenticatedUnsuccessfully();
+                    } catch (Exception e) {
+                        Log.d("LoginActivity", "Error authenticating");
+                        e.printStackTrace();
+                    }
+                }
+            }};
+     }
+    private Response.Listener<JSONObject> createListener(){
+        return new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject JSONObject) {
+                try {
+                    Log.d("LoginActivity", "Success Response: " + JSONObject.toString());
+                    authenticatedSuccessfully();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Log.d("LoginActivity", "Error Authenticating");
+                }
+            }
+        };
+}
+
 }

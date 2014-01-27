@@ -75,8 +75,8 @@ public class FeedAdapter extends BaseAdapter implements RearrangementListener{
     if(convertView == null){
         convertView = LayoutInflater.from(context).inflate(R.layout.list_project, null);
     }
-        ((TextView)convertView.findViewById(R.id.tv_title)).setText(getItem(position).getTitle());
-convertView.findViewById(R.id.linear_project).setBackgroundColor(getItem(position).getColor());
+        ((TextView)convertView.findViewById(R.id.tv_title)).setText(getItem(position).getName());
+convertView.findViewById(R.id.linear_project).setBackgroundColor(getItem(position).getProject_color());
         return convertView;
     }
 

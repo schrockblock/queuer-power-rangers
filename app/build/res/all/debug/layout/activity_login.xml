@@ -1,8 +1,36 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:Preview="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="0dip"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".LoginActivity"
     tools:ignore="MergeRootFrame" />
+
+    <fragment
+    android:id="@+id/login_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        class="com.queuerPowerRangers.app.activities.Account_Creator"
+        tools:layout="@layout/fragment_login">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/create_account_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.queuerPowerRangers.app.activities.Login_Creator"
+        tools:layout="@layout/create_account">
+        </fragment>
+</LinearLayout>
 <!-- From: file:/C:/Users/Rotios/Documents/GitHub/queuer-power-rangers/app/src/main/res/layout/activity_login.xml -->
