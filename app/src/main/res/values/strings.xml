@@ -21,4 +21,8 @@
     <string name="remember">Remember Me</string>
     <string name="auto_login">Log Me In Automatically</string>
     <string name="have_account">Already Have An Account</string>
+    <string name="username">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account!</string>
+
 </resources>
