@@ -32,7 +32,7 @@ import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 import com.queuerPowerRangers.app.managers.LoginManager;
 
-public class LoginActivity extends FragmentActivity implements LoginManagerCallback{
+public class LoginActivity extends ActionBarActivity implements LoginManagerCallback{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,7 +115,7 @@ public class LoginActivity extends FragmentActivity implements LoginManagerCallb
         findViewById(R.id.login_unsuccessful).setVisibility(View.GONE);
 
         if(successful){
-            Intent i = new Intent(getApplicationContext(), FeedActivity.class);
+            Intent i = new Intent(getApplicationContext(), com.queuerPowerRangers.app.activities.FeedActivity.class);
             startActivity(i);
             finish();
     }else{
