@@ -2,7 +2,7 @@ package com.queuerPowerRangers.app.Models;
 
 import android.content.Context;
 
-import com.queuerPowerRangers.app.datasource.TaskDataSource;
+import com.queuerPowerRangers.app.Databases.TaskDataSource;
 
 import java.sql.SQLException;
 import java.util.Date;
@@ -15,25 +15,25 @@ public class Task {
     private int id;
     private String name;
     private int project_id;
-    private int position;
+    private int order;
     private boolean finished;
     private Date created_at;
     private Date updated_at;
 
     public Task() {}
 
-    public Task(Context context, int id, String name, int project_id, int position, boolean finished, Date created_at, Date updated_at) throws SQLException {
+    public Task(Context context, int id, String name, int project_id, int order, boolean finished, Date created_at, Date updated_at) {
         this.id = id;
         this.name = name;
         this.project_id = project_id;
-        this.position = position;
+        this.order = order;
         this.finished = finished;
         this.created_at = created_at;
         this.updated_at = updated_at;
 
         TaskDataSource dataSource = new TaskDataSource(context);
         dataSource.open();
-        setLocalId(dataSource.createTask(name, project_id, id, position, finished).localId);
+        setLocalId(dataSource.createTask(name, project_id, id, order, finished).localId);
         dataSource.close();
     }
 
@@ -45,12 +45,12 @@ public class Task {
         this.id = id;
     }
 
-    public int getPosition() {
-        return position;
+    public int getOrder() {
+        return order;
     }
 
-    public void setPosition(int position) {
-        this.position = position;
+    public void setOrder(int order) {
+        this.order = order;
     }
 
     public boolean isFinished() {

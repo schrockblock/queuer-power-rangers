@@ -4,8 +4,8 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.queuerPowerRangers.app.views.EnhancedListView
-        android:id="@+id/lv_projects"
+    <com.queuerPowerRangers.app.Views.EnhancedListView
+        android:id="@+id/activity_feed"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
