@@ -45,8 +45,9 @@ public class LoginActivity extends FragmentActivity implements LoginManagerCallb
         create.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), AccountActivity.class);
-                startActivity(i);
+                //change AccountActivity to the class you want to switch to then uncomment
+                //Intent i = new Intent(getApplicationContext(), AccountActivity.class);
+                //startActivity(i);
                 finish();
             }
         });
