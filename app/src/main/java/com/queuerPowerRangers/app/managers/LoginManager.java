@@ -95,32 +95,16 @@ public class LoginManager{
             e.printStackTrace();
         }
 
-        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, Constants.QUEUER_SESSION_URL, signInJson, createListener(), createErrorListener()) {
-            protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
-                try {
-                    String json = new String(
-                            response.data, HttpHeaderParser.parseCharset(response.headers));
-                    return Response.success(
-                            new Gson().fromJson(json, JSONObject.class), HttpHeaderParser.parseCacheHeaders(response));
-                }catch (UnsupportedEncodingException e) {
-                    return Response.error(new ParseError(e));
-                }catch (JsonSyntaxException e) {
-                    return Response.error(new ParseError(e));
-                }
-            }
-        };
-        application.getRequestQueue().add(request);
     }
 
-
-    private void authenticatedSuccessfully() throws Exception{
-        if (callback == null) throw new Exception("Must supply a LoginManagerCallback");
-            callback.finishedRequest(true);
+    private void authenticatedSuccessfully() throws Exception {
+        if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
+        callback.finishedRequest(true);
     }
 
-    private void authenticatedUnsuccessfully() throws Exception{
-        if (callback == null) throw new Exception("Must supply a LoginManagerCallback");
-            callback.finishedRequest(false);
+    private void authenticatedUnsuccessfully() throws Exception {
+        if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
+        callback.finishedRequest(false);
     }
 
     private Response.ErrorListener createErrorListener(){

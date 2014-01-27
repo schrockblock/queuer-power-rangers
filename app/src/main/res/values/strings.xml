@@ -24,5 +24,9 @@
     <string name="username">Username or Email</string>
     <string name="password">Password</string>
     <string name="create_account">Create Account!</string>
+    <string name="undo">Undo</string>
+    <string name="undo_all">Undo All</string>
+    <string name="item_deleted">Item deleted</string>
+    <string name="n_items_deleted">%1$s items deleted</string>
 
 </resources>
