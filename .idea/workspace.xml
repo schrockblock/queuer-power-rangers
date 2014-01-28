@@ -5,504 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afd791a0-7a64-46d2-8c90-92613b2b9bec" name="Default" comment="Merge remote-tracking branch 'origin/feature/v7_Support' into feature/Leslie/fixed_changes&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;app/build.gradle&#10;&#9;app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java&#10;&#9;local.properties&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_bottom_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_bottom_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_bottom_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_bottom_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_bottom_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_bottom_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_bottom_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_bottom_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_bottom_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_bottom_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_bottom_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_bottom_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_stacked_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_stacked_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_stacked_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_stacked_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_stacked_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_stacked_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_stacked_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_stacked_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_stacked_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_stacked_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_stacked_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ab_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ab_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_cab_background_bottom_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_cab_background_bottom_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_cab_background_bottom_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_cab_background_bottom_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_cab_background_bottom_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_cab_background_bottom_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_cab_background_top_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_cab_background_top_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_cab_background_top_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_cab_background_top_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_cab_background_top_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_cab_background_top_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_ab_back_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_ab_back_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_ab_back_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_ab_back_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_ab_back_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_ab_back_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_cab_done_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_cab_done_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_cab_done_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_cab_done_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_cab_done_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_cab_done_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_clear_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_clear_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_clear_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_clear_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_clear_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_clear_search_api_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_clear_search_api_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_clear_search_api_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_clear_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_clear_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_clear_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_commit_search_api_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_commit_search_api_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_commit_search_api_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_commit_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_commit_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_commit_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_go_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_go_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_go_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_menu_share_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_menu_share_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_menu_share_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_menu_share_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_menu_share_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_menu_share_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_voice_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_voice_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_voice_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_voice_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_ic_voice_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_ic_voice_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_list_divider_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_list_divider_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_list_divider_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_list_divider_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_list_divider_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_list_divider_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_menu_dropdown_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_menu_dropdown_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_menu_dropdown_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_menu_dropdown_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_menu_hardkey_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_menu_hardkey_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_menu_hardkey_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_spinner_ab_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_spinner_ab_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_spinner_ab_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_spinner_ab_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_spinner_ab_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_spinner_ab_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_spinner_ab_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_spinner_ab_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_spinner_ab_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_spinner_ab_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_spinner_ab_focused_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_spinner_ab_focused_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_spinner_ab_focused_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_spinner_ab_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_spinner_ab_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_spinner_ab_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_spinner_ab_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_spinner_ab_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_spinner_ab_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_spinner_ab_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_tab_selected_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_tab_selected_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_tab_selected_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_tab_selected_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_tab_selected_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_tab_selected_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_tab_selected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_tab_selected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_tab_selected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_tab_unselected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_tab_unselected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_tab_unselected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_textfield_search_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_textfield_search_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_textfield_search_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_textfield_search_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_textfield_search_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_textfield_search_right_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_textfield_search_right_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_textfield_search_right_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_textfield_search_right_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_textfield_search_right_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_textfield_search_right_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_textfield_search_right_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_textfield_search_right_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_textfield_search_right_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_textfield_search_right_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_textfield_search_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_textfield_search_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_textfield_search_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-hdpi/abc_textfield_search_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-mdpi/abc_textfield_search_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable-xhdpi/abc_textfield_search_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/libs/android-support-v4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/Libs/android-support-v7-appcompat.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/gridlayout/libs/android-support-v7-gridlayout.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/libs/android-support-v7-mediarouter.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_audio_vol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_audio_vol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_audio_vol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_audio_vol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_disabled_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_disabled_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_disabled_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_disabled_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_off_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_off_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_off_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_off_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_off_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_off_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_off_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_off_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_on_0_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_on_0_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_on_0_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_on_0_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_on_0_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_on_0_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_on_0_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_on_0_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_on_1_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_on_1_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_on_1_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_on_1_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_on_1_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_on_1_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_on_1_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_on_1_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_on_2_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_on_2_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_on_2_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_on_2_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_on_2_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_on_2_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_on_2_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_on_2_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_on_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_on_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_on_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_on_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-hdpi/mr_ic_media_route_on_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-mdpi/mr_ic_media_route_on_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xhdpi/mr_ic_media_route_on_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable-xxhdpi/mr_ic_media_route_on_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/gridlayout/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/gridlayout/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/src/.readme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/gridlayout/src/.readme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/src/.readme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/gridlayout/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_support_v7_appcompat.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/gridlayout/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_bar_decor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout-v11/abc_action_bar_decor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_bar_decor_include.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_bar_decor_overlay.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_bar_home.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_bar_tab.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_bar_tabbar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_bar_title_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_bar_view_list_nav_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_menu_item_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_menu_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_mode_bar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_action_mode_close_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_activity_chooser_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout-v14/abc_activity_chooser_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_activity_chooser_view_include.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_activity_chooser_view_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_expanded_menu_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/anim/abc_fade_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/anim/abc_fade_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_ic_clear.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_ic_clear_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_item_background_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_item_background_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_list_menu_item_checkbox.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_list_menu_item_icon.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_list_menu_item_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_list_menu_item_radio.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_list_selector_background_transition_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_list_selector_background_transition_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_list_selector_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_list_selector_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_popup_menu_item_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_search_dropdown_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_search_dropdown_item_icons_2line.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_search_dropdown_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/color/abc_search_url_text_holo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/abc_search_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/anim/abc_slide_in_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/anim/abc_slide_in_top.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/anim/abc_slide_out_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/anim/abc_slide_out_top.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_spinner_ab_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_spinner_ab_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_tab_indicator_ab_holo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_textfield_searchview_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_textfield_searchview_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_textfield_searchview_right_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/drawable/abc_textfield_searchview_right_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v7_appcompat.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/gridlayout/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/bools.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-land/bools.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-large/bools.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-w480dp/bools.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-w720dp/bools.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-xlarge/bools.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-land/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-large/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-sw600dp/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-w480dp/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-land/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-large/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-sw600dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-w360dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-w500dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-w600dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-xlarge/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/gridlayout/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/ids.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable/mr_ic_media_route_connecting_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable/mr_ic_media_route_connecting_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable/mr_ic_media_route_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/drawable/mr_ic_media_route_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/layout/mr_media_route_chooser_dialog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/layout/mr_media_route_controller_dialog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/layout-v11/mr_media_route_controller_dialog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/layout/mr_media_route_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/layout-v17/mr_media_route_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/gridlayout/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-af/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-am/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-ar/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-bg/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-ca/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-cs/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-da/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-de/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-el/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-en-rGB/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-en-rIN/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-es/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-es-rUS/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-et-rEE/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-fa/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-fi/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-fr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-fr-rCA/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-hi/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-hr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-hu/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-hy-rAM/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-in/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-it/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-iw/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-ja/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-ka-rGE/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-km-rKH/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-ko/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-lo-rLA/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-lt/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-lv/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-mn-rMN/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-ms-rMY/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-nb/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-nl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-pl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-pt/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-pt-rPT/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-ro/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-ru/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-sk/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-sl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-sr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-sv/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-sw/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-th/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-tl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-tr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-uk/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-vi/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-zh-rCN/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-zh-rHK/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-zh-rTW/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-zu/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-af/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-am/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-ar/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-bg/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-ca/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-cs/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-da/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-de/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-el/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-en-rGB/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-en-rIN/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-es/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-es-rUS/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-et-rEE/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-fa/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-fi/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-fr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-fr-rCA/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-hi/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-hr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-hu/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-hy-rAM/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-in/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-it/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-iw/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-ja/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-ka-rGE/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-km-rKH/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-ko/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-lo-rLA/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-lt/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-lv/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-mn-rMN/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-ms-rMY/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-nb/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-nl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-pl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-pt/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-pt-rPT/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-ro/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-ru/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-sk/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-sl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-sr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-sv/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-sw/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-th/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-tl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-tr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-uk/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-vi/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-zh-rCN/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-zh-rHK/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-zh-rTW/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values-zu/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/styles_base.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-v11/styles_base.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-v14/styles_base.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/layout/support_simple_spinner_dropdown_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/themes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/mediarouter/res/values/themes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values/themes_base.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-v11/themes_base.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/res/values-v14/themes_base.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/queuerPowerRangers/app/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/queuerPowerRangers/app/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/CreateAccountActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/CreateAccountActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/managers/CreateAccountManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/managers/CreateAccountManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="queuer-power-rangers.iws" />
@@ -567,55 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="26" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="2890">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="misc.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="46" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="9" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FeedActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/FeedActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="40" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.0" vertical-offset="1436" max-vertical-offset="2091">
+            <state line="29" column="47" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2091">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1087#1096#0" expanded="true" />
@@ -625,10 +86,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CreateAccountActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/CreateAccountActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="17" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Project.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="54" selection-start="1014" selection-end="1014" vertical-scroll-proportion="1.2830188" vertical-offset="0" max-vertical-offset="2023">
+            <state line="36" column="54" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1219#1220#0" expanded="true" />
@@ -668,6 +138,72 @@
                 <element signature="e#2474#2475#0" expanded="true" />
                 <element signature="e#2524#2525#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedAdapter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="115" column="5" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.7148847" vertical-offset="1614" max-vertical-offset="2159">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#670#679#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateAccountManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/managers/CreateAccountManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="20" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="6" selection-start="587" selection-end="587" vertical-scroll-proportion="-14.285714" vertical-offset="144" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradlew" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="132" column="35" selection-start="3654" selection-end="3655" vertical-scroll-proportion="-5.321429" vertical-offset="2095" max-vertical-offset="2890">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradlew.bat" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.5283019" vertical-offset="28" max-vertical-offset="1632">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1087,9 +623,12 @@
         <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/FeedActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/CreateAccountActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/managers/CreateAccountManager.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -1154,6 +693,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queuer-power-rangers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queuer-power-rangers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wrapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1331,6 +888,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queuer-power-rangers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queuer-power-rangers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1370,6 +953,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queuer-power-rangers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queuer-power-rangers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="managers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1478,6 +1095,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyApplication2" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1665,7 +1283,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23535676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23322684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.49947917" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1695,93 +1313,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/FeedActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="40" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="2312">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1087#1096#0" expanded="true" />
-            <element signature="e#1520#1529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2023">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1435#1436#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1625#1626#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2018#2019#0" expanded="true" />
-            <element signature="e#2056#2057#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2114#2115#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2220#2221#0" expanded="true" />
-            <element signature="e#2253#2254#0" expanded="true" />
-            <element signature="e#2302#2303#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2383#2384#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2474#2475#0" expanded="true" />
-            <element signature="e#2524#2525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="28" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="90" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/managers/LoginManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="59" selection-start="3769" selection-end="3769" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Interfaces/RearrangementListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Interfaces/LoginManagerCallback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255" />
@@ -1973,12 +1504,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Interfaces/LoginManagerCallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="215" selection-end="215" vertical-scroll-proportion="0.26288658" vertical-offset="0" max-vertical-offset="582" />
+        <state line="9" column="1" selection-start="215" selection-end="215" vertical-scroll-proportion="0.26288658" vertical-offset="0" max-vertical-offset="582">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/managers/LoginManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="1734" />
+        <state line="96" column="0" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="1734">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Packages/Constants.java">
@@ -2054,20 +1589,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/FeedActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="40" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.0" vertical-offset="1436" max-vertical-offset="2091">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1087#1096#0" expanded="true" />
-            <element signature="e#1520#1529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="54" selection-start="1014" selection-end="1014" vertical-scroll-proportion="1.2830188" vertical-offset="0" max-vertical-offset="2023">
+        <state line="36" column="54" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1219#1220#0" expanded="true" />
@@ -2106,6 +1630,76 @@
             <element signature="e#2419#2420#0" expanded="true" />
             <element signature="e#2474#2475#0" expanded="true" />
             <element signature="e#2524#2525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/FeedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="47" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2091">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1087#1096#0" expanded="true" />
+            <element signature="e#1520#1529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/CreateAccountActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/managers/CreateAccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="6" selection-start="587" selection-end="587" vertical-scroll-proportion="-14.285714" vertical-offset="144" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="477">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="35" selection-start="3654" selection-end="3655" vertical-scroll-proportion="-5.321429" vertical-offset="2095" max-vertical-offset="2890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.5283019" vertical-offset="28" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="477">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="5" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.7148847" vertical-offset="1614" max-vertical-offset="2159">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#670#679#0" expanded="true" />
           </folding>
         </state>
       </provider>
