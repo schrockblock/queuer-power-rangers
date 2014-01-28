@@ -77,7 +77,6 @@
     <orderEntry type="library" exported="" name="android-support-v7-appcompat" level="project" />
     <orderEntry type="library" exported="" name="annotations" level="project" />
     <orderEntry type="library" exported="" name="volley" level="project" />
-    <orderEntry type="library" exported="" name="ComAndroidSupportAppcompatV71900.aar" level="project" />
   </component>
 </module>
 

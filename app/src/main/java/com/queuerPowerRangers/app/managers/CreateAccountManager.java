@@ -1,14 +1,12 @@
-package com.queuerPowerRangers.app.managers;
+package com.queuerPowerRangers.app.Managers;
 
 import android.content.Context;
-import android.support.v7.appcompat.R;
 import android.util.Log;
 
 import com.android.volley.*;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
-import com.queuerPowerRangers.app.activities.CreateAccountActivity;
 
 /**
  * Created by Michael on 1/14/14.

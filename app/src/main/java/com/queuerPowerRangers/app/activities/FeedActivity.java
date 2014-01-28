@@ -1,4 +1,4 @@
-package com.queuerPowerRangers.app.activities;
+package com.queuerPowerRangers.app.Activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -12,16 +12,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
 
-import com.queuerPowerRangers.app.Adapters.ProjectAdapter;
 import com.queuerPowerRangers.app.Databases.ProjectDataSource;
-import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Views.EnhancedListView;
 import com.queuerPowerRangers.app.Models.Project;
 import com.queuerPowerRangers.app.Adapters.FeedAdapter;
-import com.queuerPowerRangers.app.activities.ProjectActivity;
 
-import java.sql.SQLException;
 import java.util.ArrayList;
 
 /**

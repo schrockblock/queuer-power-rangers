@@ -4,7 +4,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context="com.queuerPowerRangers.app.Activities.CreateAccountActivity"
     tools:ignore="MergeRootFrame">
 
     <EditText
@@ -26,8 +26,8 @@
         android:layout_height="wrap_content"
         android:textColor="#87878e"
         android:hint="@string/password"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:layout_marginBottom="20dp"
         />
 
@@ -47,10 +47,21 @@
     <TextView
         android:id="@+id/account_successful"
         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_successful"
+        android:visibility="gone" />
+
+    <TextView android:id="@+id/go_back"
+        android:clickable="true"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Created Account Successfully"
-        android:visibility="gone"
-        />
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="40dip"
+        android:text="@string/have_account"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#0b84aa"
+        android:layout_gravity="center"/>
 
 </LinearLayout>

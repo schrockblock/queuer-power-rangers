@@ -13,8 +13,6 @@
     <string name="undo_all">Undo All</string>
     <string name="item_deleted">Item deleted</string>
     <string name="n_items_deleted">%1$s items deleted</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
     <string name="create_account">Create an Account</string>
     <string name="website_login">http://queuer-rndapp.rhcloud.com/api/v1/session</string>
     <string name="website_create">http://queuer-rndapp.rhcloud.com/api/v1/users</string>
@@ -23,10 +21,5 @@
     <string name="have_account">Already Have An Account</string>
     <string name="username">Username or Email</string>
     <string name="password">Password</string>
-    <string name="create_account">Create Account!</string>
-    <string name="undo">Undo</string>
-    <string name="undo_all">Undo All</string>
-    <string name="item_deleted">Item deleted</string>
-    <string name="n_items_deleted">%1$s items deleted</string>
-
+    <string name="account_successful">Created Account Successfully</string>
 </resources>

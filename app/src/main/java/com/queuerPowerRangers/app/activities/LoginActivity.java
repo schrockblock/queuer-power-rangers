@@ -1,4 +1,4 @@
-package com.queuerPowerRangers.app.activities;
+package com.queuerPowerRangers.app.Activities;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -20,7 +20,7 @@ import android.widget.TextView;
 
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 import com.queuerPowerRangers.app.R;
-import com.queuerPowerRangers.app.managers.LoginManager;
+import com.queuerPowerRangers.app.Managers.LoginManager;
 
 public class LoginActivity extends ActionBarActivity implements LoginManagerCallback{
     @Override
@@ -37,9 +37,9 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
             @Override
             public void onClick(View view) {
                 //change AccountActivity to the class you want to switch to then uncomment
-                //Intent i = new Intent(getApplicationContext(), AccountActivity.class);
-                //startActivity(i);
-                finish();
+                Intent i = new Intent(getApplicationContext(), CreateAccountActivity.class);
+                startActivity(i);
+                onPause();
             }
         });
         login.setOnClickListener(new View.OnClickListener() {
@@ -106,7 +106,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         findViewById(R.id.login_unsuccessful).setVisibility(View.GONE);
 
         if(successful){
-            Intent i = new Intent(getApplicationContext(), com.queuerPowerRangers.app.activities.FeedActivity.class);
+            Intent i = new Intent(getApplicationContext(), com.queuerPowerRangers.app.Activities.FeedActivity.class);
             startActivity(i);
             finish();
     }else{
