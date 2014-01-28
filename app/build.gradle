@@ -14,7 +14,7 @@ repositories {
 
 android {
     compileSdkVersion 19
-    buildToolsVersion '19.0.0'
+    buildToolsVersion "19.0.0"
 
     defaultConfig {
         minSdkVersion 10
@@ -41,5 +41,5 @@ dependencies {
     compile files('src/main/Libs/gson-2.2.1.jar')
     compile files('src/main/Libs/annotations.jar')
     compile files('src/main/Libs/nineoldandroids-2.4.0.jar')
-    compile files('/Users/Leslie/AndroidStudio/queuer-power-rangers/.idea/libraries/gson-2.2.4.jar')
+    compile files('src/main/Libs/android-support-v7-appcompat.jar')
 }

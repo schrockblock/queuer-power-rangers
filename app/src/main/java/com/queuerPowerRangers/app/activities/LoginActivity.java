@@ -37,8 +37,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
+        setContentView(R.layout.fragment_login);
         Button login = (Button)findViewById(R.id.btn_login);
         final EditText user = (EditText)findViewById(R.id.et_username);
         final EditText pass = (EditText)findViewById(R.id.et_password);
