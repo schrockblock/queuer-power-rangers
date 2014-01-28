@@ -14,8 +14,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="#87878e"
-        android:paddingTop="@dimen/abc_action_bar_icon_vertical_padding"
-        android:paddingBottom="@dimen/abc_action_bar_icon_vertical_padding"
+        android:layout_marginTop="20dp"
         />
 
     <EditText
@@ -25,20 +24,30 @@
         android:layout_height="wrap_content"
         android:textColor="#87878e"
         android:hint="@string/password"
-        android:paddingTop="@dimen/abc_action_bar_icon_vertical_padding"
-        android:paddingBottom="@dimen/abc_action_bar_icon_vertical_padding"
+        android:layout_marginBottom="20dp"
         />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/create_button"
         android:layout_gravity="center"
         android:text="@string/create_account"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:onClick="create_account"
+        android:layout_marginBottom="20dp"/>
 
     <include layout="@layout/progress_bar"
-        android:id="@+id/progressbar_layout" />
+        android:id="@+id/prog_bar"
+        android:visibility="gone"/>
 
+    <TextView
+        android:id="@+id/account_successful"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Created Account Successfully"
+        android:visibility="gone"
+        />
 
 
 </LinearLayout>

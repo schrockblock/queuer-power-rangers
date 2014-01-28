@@ -1,4 +1,5 @@
 <LinearLayout android:orientation="vertical"
+
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/container"
@@ -31,3 +32,4 @@
             android:layout_height="wrap_content" />
 
     </LinearLayout>
+
