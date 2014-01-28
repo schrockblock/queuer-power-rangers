@@ -86,13 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="2788">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="22" column="0" selection-start="714" selection-end="714" vertical-scroll-proportion="0.10920771" vertical-offset="0" max-vertical-offset="2312">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,16 +98,16 @@
       <file leaf-file-name="ProjectAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/ProjectAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="31" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1989">
+            <state line="86" column="31" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2244">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedAdapter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FeedAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="27" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.8201285" vertical-offset="926" max-vertical-offset="1955">
+            <state line="9" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
               <folding />
             </state>
           </provider>
@@ -602,7 +600,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1077,6 +1074,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1130,6 +1128,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1155,19 +1166,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1287,7 +1285,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1347,9 +1345,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="90" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="2465">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1666,15 +1662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="2788">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/ProjectAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="31" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2244">
@@ -1684,7 +1671,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="27" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.8201285" vertical-offset="926" max-vertical-offset="1955">
+        <state line="9" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="714" selection-end="714" vertical-scroll-proportion="0.10920771" vertical-offset="0" max-vertical-offset="2312">
           <folding />
         </state>
       </provider>
