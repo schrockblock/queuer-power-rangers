@@ -1,39 +1,32 @@
 package com.queuerPowerRangers.app.activities;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.Build;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.view.LayoutInflater;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.queuerPowerRangers.app.Packages.QueuerApplication;
-import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
-import com.queuerPowerRangers.app.managers.LoginManager;
+import com.queuerPowerRangers.app.R;
 
+<<<<<<< HEAD
 public class LoginActivity extends ActionBarActivity implements LoginManagerCallback {
 
+=======
+public class LoginActivity extends ActionBarActivity implements LoginManagerCallback{
+>>>>>>> origin/feature/v7_Support
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -117,7 +110,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         findViewById(R.id.login_unsuccessful).setVisibility(View.GONE);
 
         if(successful){
-            Intent i = new Intent(getApplicationContext(), FeedActivity.class);
+            Intent i = new Intent(getApplicationContext(), com.queuerPowerRangers.app.activities.FeedActivity.class);
             startActivity(i);
             finish();
     }else{
