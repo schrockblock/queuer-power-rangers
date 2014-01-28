@@ -8,6 +8,7 @@ import com.android.volley.*;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
+import com.queuerPowerRangers.app.activities.CreateAccountActivity;
 
 /**
  * Created by Michael on 1/14/14.
@@ -17,7 +18,8 @@ public class CreateAccountManager {
     LoginManagerCallback callback;
     Context context;
 
-    public void setCallback(LoginManagerCallback callback) {
+    public void setCallback(Context context, LoginManagerCallback callback) {
+        this.context = context;
         this.callback = callback;
     }
 

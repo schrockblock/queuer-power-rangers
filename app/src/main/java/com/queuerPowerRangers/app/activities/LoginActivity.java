@@ -20,13 +20,9 @@ import android.widget.TextView;
 
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 import com.queuerPowerRangers.app.R;
+import com.queuerPowerRangers.app.managers.LoginManager;
 
-<<<<<<< HEAD
-public class LoginActivity extends ActionBarActivity implements LoginManagerCallback {
-
-=======
 public class LoginActivity extends ActionBarActivity implements LoginManagerCallback{
->>>>>>> origin/feature/v7_Support
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,13 +59,13 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                     Intent i = new Intent(getApplicationContext(), FeedActivity.class);
                     startActivity(i);
                     finish();
-              /*  LoginManager manager = LoginManager.getInstance();
+               LoginManager manager = LoginManager.getInstance();
                 manager.setCallback(LoginActivity.this, LoginActivity.this);
                 try {
                     manager.login(user.getText().toString(), pass.getText().toString());
                 } catch (Exception e) {
                     e.printStackTrace();
-                }*/
+                }
             }
             }
 

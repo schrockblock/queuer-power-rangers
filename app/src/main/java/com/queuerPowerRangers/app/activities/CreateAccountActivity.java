@@ -7,7 +7,7 @@ import android.widget.*;
 
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
-import com.queuerPowerRangers.app.Managers.CreateAccountManager;
+import com.queuerPowerRangers.app.managers.CreateAccountManager;
 
 /**
  * Created by Michael on 1/12/14.
@@ -34,7 +34,7 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
         password_text = (EditText) findViewById(R.id.et_password);
 
         ca_manager = new CreateAccountManager();
-        ca_manager.setCallback(this, this);
+        ca_manager.setCallback(CreateAccountActivity.this, CreateAccountActivity.this);
     }
 
     public void startedRequest() {
