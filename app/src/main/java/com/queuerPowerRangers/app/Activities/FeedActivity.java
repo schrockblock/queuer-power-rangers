@@ -18,14 +18,8 @@ import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Views.EnhancedListView;
 import com.queuerPowerRangers.app.Models.Project;
 import com.queuerPowerRangers.app.Adapters.FeedAdapter;
-import com.queuerPowerRangers.app.activities.ProjectActivity;
+import com.queuerPowerRangers.app.Activities.ProjectActivity;
 
-<<<<<<< HEAD
-import java.sql.SQLException;
-=======
-
-import java.sql.Date;
->>>>>>> 0782cfc59e9236a86e23fd1f83780226778f4ee1
 import java.util.ArrayList;
 
 /**

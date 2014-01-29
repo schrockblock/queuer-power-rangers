@@ -11,7 +11,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:ems="10"
-        android:hint="Task" >
+        android:hint="@string/task" >
         <requestFocus />
     </EditText>
     <EditText
@@ -20,5 +20,5 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:layout_below="@+id/task"
-        android:text="0"/>
+        android:text="@string/zero"/>
 </RelativeLayout>

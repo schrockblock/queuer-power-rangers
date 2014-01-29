@@ -24,4 +24,7 @@
     <string name="account_successful">Created Account Successfully</string>
     <string name="account_unsuccessful">Create Account Unsuccessfully</string>
     <string name="action_logout">Log Out</string>
+    <string name="task">Task</string>
+    <string name="zero">0</string>
+    <string name="finish">Exit</string>
 </resources>

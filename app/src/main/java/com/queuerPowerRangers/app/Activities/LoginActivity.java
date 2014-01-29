@@ -45,11 +45,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                 //change AccountActivity to the class you want to switch to then uncomment
                 Intent i = new Intent(getApplicationContext(), CreateAccountActivity.class);
                 startActivity(i);
-<<<<<<< HEAD
                 onStop();
-=======
-                onPause();
->>>>>>> 0782cfc59e9236a86e23fd1f83780226778f4ee1
             }
         });
         login.setOnClickListener(new View.OnClickListener() {
@@ -66,15 +62,10 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                     editor.putString("password", pass.getText().toString());
                     editor.commit();
                 }
-                  /Intent i = new Intent(getApplicationContext(), FeedActivity.class);
+                  Intent i = new Intent(getApplicationContext(), FeedActivity.class);
                     startActivity(i);
-<<<<<<< HEAD
-                    finish();*/
-               LoginManager manager = LoginManager.getInstance();
-=======
                     onStop();
-              /*  LoginManager manager = LoginManager.getInstance();
->>>>>>> 0782cfc59e9236a86e23fd1f83780226778f4ee1
+                LoginManager manager = LoginManager.getInstance();
                 manager.setCallback(LoginActivity.this, LoginActivity.this);
                 try {
                     manager.login(user.getText().toString(), pass.getText().toString());
@@ -106,7 +97,8 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        return id == R.id.action_settings || super.onOptionsItemSelected(item);
+        
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -174,5 +166,3 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         }
         return haveConnectedWifi || haveConnectedMobile;
     }
-
-}

@@ -94,6 +94,7 @@ public class ProjectActivity extends ActionBarActivity {
                                     task.setName(taskTitle.getText().toString());
                                     task.setProject_id(project_id);
                                     tasks.add(0, task);
+                                    adapter.insert(task, 0);
                                     adapter.notifyDataSetChanged();
                                 }
                             })
