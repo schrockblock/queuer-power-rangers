@@ -4,7 +4,9 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afd791a0-7a64-46d2-8c90-92613b2b9bec" name="Default" comment="Merge remote-tracking branch 'origin/feature/v7_Support' into feature/Leslie/fixed_changes&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;app/build.gradle&#10;&#9;app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java&#10;&#9;local.properties&#10;" />
+    <list default="true" id="afd791a0-7a64-46d2-8c90-92613b2b9bec" name="Default" comment="Merge remote-tracking branch 'origin/feature/v7_Support' into feature/Leslie/fixed_changes&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;app/build.gradle&#10;&#9;app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java&#10;&#9;local.properties&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="$PROJECT_DIR$/app/.gitignore" />
+    </list>
     <ignored path="queuer-power-rangers.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,7 +110,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="3" selection-start="50" selection-end="50" vertical-scroll-proportion="0.10691824" vertical-offset="0" max-vertical-offset="477">
+            <state line="8" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.2851153" vertical-offset="0" max-vertical-offset="477">
               <folding />
             </state>
           </provider>
@@ -592,10 +594,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/FeedActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java" />
-        <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java" />
+        <option value="$PROJECT_DIR$/app/.gitignore" />
       </list>
     </option>
   </component>
@@ -864,7 +866,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -885,7 +887,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2342918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2342918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.49947917" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1343,7 +1345,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="50" selection-end="50" vertical-scroll-proportion="0.10691824" vertical-offset="0" max-vertical-offset="477">
+        <state line="8" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.2851153" vertical-offset="0" max-vertical-offset="477">
           <folding />
         </state>
       </provider>
