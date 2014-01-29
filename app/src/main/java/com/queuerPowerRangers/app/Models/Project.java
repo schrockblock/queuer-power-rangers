@@ -22,6 +22,20 @@ public class Project {
     private Date updated_at;
     private int project_color;
 
+    public Project(Context context, int id, String name){
+        this.id = id;
+        this.name = name;
+        this.project_id = id;
+        this.order = id;
+        this.created_at = new Date();
+        this.updated_at = new Date();
+
+        ProjectDataSource dataSource = new ProjectDataSource(context);
+        dataSource.open();
+        setLocalId(dataSource.createProject(name, project_id, order, created_at, updated_at).localId);
+        dataSource.close();
+    }
+
     public Project() {}
 
     public Project(Context context, int id, String name, int project_id, int order, boolean finished, Date created_at, Date updated_at) {

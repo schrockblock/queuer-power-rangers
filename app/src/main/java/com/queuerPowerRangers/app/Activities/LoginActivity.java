@@ -42,9 +42,9 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
             @Override
             public void onClick(View view) {
                 //change AccountActivity to the class you want to switch to then uncomment
-                //Intent i = new Intent(getApplicationContext(), AccountActivity.class);
-                //startActivity(i);
-                finish();
+                Intent i = new Intent(getApplicationContext(), CreateAccountActivity.class);
+                startActivity(i);
+                onPause();
             }
         });
         login.setOnClickListener(new View.OnClickListener() {
@@ -63,7 +63,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                 }
                     Intent i = new Intent(getApplicationContext(), FeedActivity.class);
                     startActivity(i);
-                    finish();
+                    onStop();
               /*  LoginManager manager = LoginManager.getInstance();
                 manager.setCallback(LoginActivity.this, LoginActivity.this);
                 try {
