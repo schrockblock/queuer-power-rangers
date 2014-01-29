@@ -13,7 +13,6 @@ import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.R;
 
-import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 
@@ -69,7 +68,6 @@ public class ProjectAdapter extends BaseAdapter implements RearrangementListener
         return true;
     }
 
-    @Nullable
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
         if(convertView == null){

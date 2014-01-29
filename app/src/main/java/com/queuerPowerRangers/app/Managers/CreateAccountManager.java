@@ -5,8 +5,13 @@ import android.util.Log;
 
 import com.android.volley.*;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.gson.Gson;
+import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
+import com.queuerPowerRangers.app.Models.CreateAccountModel;
+import com.queuerPowerRangers.app.Models.User;
 import com.google.gson.Gson;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 import com.queuerPowerRangers.app.Models.CreateAccountModel;
@@ -29,7 +34,7 @@ public class CreateAccountManager {
         this.callback = callback;
     }
 
-    public void createAccount(String username, String password) throws Exception{
+    public void createAccount(String username, String password) throws Exception {
         if (callback == null) throw new Exception( "Must supply a LoginManagerCallback" );
         callback.startedRequest();
         create(username, password);
@@ -83,10 +88,14 @@ public class CreateAccountManager {
     private void createdSuccessfully() throws Exception{
         if( callback == null) throw new Exception( "Must supply a LoginManagerCallback");
         callback.finishedRequest(true);
+
+        System.out.println( "Success");
     }
 
     private void createdUnsuccessfully() throws Exception{
         if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
         callback.finishedRequest(false);
+
+        System.out.println("sad");
     }
 }

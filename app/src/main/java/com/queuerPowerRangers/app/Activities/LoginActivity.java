@@ -1,16 +1,21 @@
 package com.queuerPowerRangers.app.Activities;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.Bundle;
+import android.os.Build;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,12 +28,12 @@ import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Managers.LoginManager;
 
-public class LoginActivity extends ActionBarActivity implements LoginManagerCallback{
+public class LoginActivity extends ActionBarActivity implements LoginManagerCallback {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_login);
-
         Button login = (Button)findViewById(R.id.btn_login);
         final EditText user = (EditText)findViewById(R.id.et_username);
         final EditText pass = (EditText)findViewById(R.id.et_password);
@@ -57,7 +62,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                     editor.putString("password", pass.getText().toString());
                     editor.commit();
                 }
-                  /*  Intent i = new Intent(getApplicationContext(), FeedActivity.class);
+                  /Intent i = new Intent(getApplicationContext(), FeedActivity.class);
                     startActivity(i);
                     finish();*/
                LoginManager manager = LoginManager.getInstance();
