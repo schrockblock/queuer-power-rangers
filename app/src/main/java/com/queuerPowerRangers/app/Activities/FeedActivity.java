@@ -20,7 +20,12 @@ import com.queuerPowerRangers.app.Models.Project;
 import com.queuerPowerRangers.app.Adapters.FeedAdapter;
 import com.queuerPowerRangers.app.activities.ProjectActivity;
 
+<<<<<<< HEAD
 import java.sql.SQLException;
+=======
+
+import java.sql.Date;
+>>>>>>> 0782cfc59e9236a86e23fd1f83780226778f4ee1
 import java.util.ArrayList;
 
 /**
@@ -39,13 +44,13 @@ public class FeedActivity extends ActionBarActivity {
         project_id = getIntent().getIntExtra("project_id",-1);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Project " + project_id);
+        actionBar.setTitle("Project List");
 
         ArrayList<Project> projects = new ArrayList<Project>(20);
         for (int i = 0; i < 20; i++){
-            projects.add(new Project());
+            projects.add(new Project(this.getApplicationContext(),i,"test" + i,project_id,i,true, new java.util.Date(),new java.util.Date()));
         }
-
+        /*
         ProjectDataSource projectDataSource = new ProjectDataSource(this);
 
         try {
@@ -55,7 +60,7 @@ public class FeedActivity extends ActionBarActivity {
         }
         projects = projectDataSource.getAllProjects();
         projectDataSource.close();
-
+    */
         adapter = new FeedAdapter(this, projects);
         EnhancedListView listView = (EnhancedListView)findViewById(R.id.activity_feed);
         listView.setAdapter(adapter);
@@ -75,9 +80,11 @@ public class FeedActivity extends ActionBarActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(FeedActivity.this, ProjectActivity.class);
+                System.out.println("clicked");
+                Intent intent = new Intent(getApplicationContext(), ProjectActivity.class);
                 intent.putExtra("project_id", (int)adapter.getItemId(position));
                 startActivity(intent);
+                onPause();
             }
         });
 
