@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: annotations">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/.idea/libraries/annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/src/main/Libs/annotations.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

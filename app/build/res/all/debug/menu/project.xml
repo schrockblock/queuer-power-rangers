@@ -7,4 +7,10 @@
         android:title="@string/action_add_task"
         android:orderInCategory="100"
         app:showAsAction="never" />
+
+    <item android:id="@+id/action_log_out"
+        android:title="@string/action_logout"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu><!-- From: file:/C:/Users/Rotios/Documents/GitHub/queuer-power-rangers/app/src/main/res/menu/project.xml -->

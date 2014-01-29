@@ -870,7 +870,7 @@ containing a value of this type.
         public static final int account_successful=0x7f070044;
         public static final int account_unsuccessful=0x7f070045;
         public static final int action_add_project=0x7f070053;
-        public static final int action_add_task=0x7f070055;
+        public static final int action_add_task=0x7f070056;
         public static final int action_bar=0x7f07001c;
         public static final int action_bar_activity_content=0x7f070014;
         public static final int action_bar_container=0x7f07001b;
@@ -879,10 +879,11 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f070023;
         public static final int action_bar_title=0x7f070022;
         public static final int action_context_bar=0x7f07001d;
+        public static final int action_log_out=0x7f070054;
         public static final int action_menu_divider=0x7f070015;
         public static final int action_menu_presenter=0x7f070016;
         public static final int action_mode_close_button=0x7f070024;
-        public static final int action_settings=0x7f070054;
+        public static final int action_settings=0x7f070055;
         public static final int activity_chooser_view_content=0x7f070025;
         public static final int activity_feed=0x7f07003c;
         public static final int always=0x7f07000f;
@@ -996,8 +997,9 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int feed=0x7f0c0000;
-        public static final int login=0x7f0c0001;
-        public static final int project=0x7f0c0002;
+        public static final int log_out=0x7f0c0001;
+        public static final int login=0x7f0c0002;
+        public static final int project=0x7f0c0003;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0a0000;
@@ -1017,24 +1019,25 @@ containing a value of this type.
         public static final int account_unsuccessful=0x7f0a000e;
         public static final int action_add_project=0x7f0a000f;
         public static final int action_add_task=0x7f0a0010;
-        public static final int action_settings=0x7f0a0011;
-        public static final int app_name=0x7f0a0012;
-        public static final int auto_login=0x7f0a0013;
-        public static final int create_account=0x7f0a0014;
-        public static final int have_account=0x7f0a0015;
-        public static final int hello_world=0x7f0a0016;
-        public static final int item_deleted=0x7f0a0017;
-        public static final int login_button=0x7f0a0018;
-        public static final int n_items_deleted=0x7f0a0019;
-        public static final int new_user=0x7f0a001a;
-        public static final int no_login=0x7f0a001b;
-        public static final int password=0x7f0a001c;
-        public static final int remember=0x7f0a001d;
-        public static final int undo=0x7f0a001e;
-        public static final int undo_all=0x7f0a001f;
-        public static final int username=0x7f0a0020;
-        public static final int website_create=0x7f0a0021;
-        public static final int website_login=0x7f0a0022;
+        public static final int action_logout=0x7f0a0011;
+        public static final int action_settings=0x7f0a0012;
+        public static final int app_name=0x7f0a0013;
+        public static final int auto_login=0x7f0a0014;
+        public static final int create_account=0x7f0a0015;
+        public static final int have_account=0x7f0a0016;
+        public static final int hello_world=0x7f0a0017;
+        public static final int item_deleted=0x7f0a0018;
+        public static final int login_button=0x7f0a0019;
+        public static final int n_items_deleted=0x7f0a001a;
+        public static final int new_user=0x7f0a001b;
+        public static final int no_login=0x7f0a001c;
+        public static final int password=0x7f0a001d;
+        public static final int remember=0x7f0a001e;
+        public static final int undo=0x7f0a001f;
+        public static final int undo_all=0x7f0a0020;
+        public static final int username=0x7f0a0021;
+        public static final int website_create=0x7f0a0022;
+        public static final int website_login=0x7f0a0023;
     }
     public static final class style {
         /**  Customize your theme here. 
