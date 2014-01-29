@@ -110,4 +110,5 @@ public class Project {
 
     public void setProject_color(int project_color) {
         this.project_color = project_color;
+
     }}

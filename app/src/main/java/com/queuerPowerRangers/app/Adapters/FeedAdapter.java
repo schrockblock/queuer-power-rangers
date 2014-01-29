@@ -9,24 +9,24 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.queuerPowerRangers.app.Interfaces.RearrangementListener;
-import com.queuerPowerRangers.app.Models.Task;
-import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.R;
+import com.queuerPowerRangers.app.Models.Project;
 
 
 import java.util.ArrayList;
 
 /**
- * Created by Rotios on 1/17/14.
+ * Created by Rotios on 1/15/14.
  */
-public class ProjectAdapter extends BaseAdapter implements RearrangementListener {
+public class FeedAdapter extends BaseAdapter implements RearrangementListener{
     private Context context;
-    private ArrayList<Task> tasks = new ArrayList<Task>();
+    private ArrayList<Project> projects = new ArrayList<Project>();
 
-    public ProjectAdapter(Context context, ArrayList<Task> tasks) {
+    public FeedAdapter(Context context, ArrayList<Project> projects) {
         this.context = context;
-        this.tasks = tasks;
+        this.projects = projects;
     }
+
 
     @Override
     public boolean areAllItemsEnabled() {
@@ -50,12 +50,12 @@ public class ProjectAdapter extends BaseAdapter implements RearrangementListener
 
     @Override
     public int getCount() {
-        return tasks.size();
+        return projects.size();
     }
 
     @Override
-    public Task getItem(int position) {
-        return tasks.get(position);
+    public Project getItem(int position) {
+        return projects.get(position);
     }
 
     @Override
@@ -68,23 +68,25 @@ public class ProjectAdapter extends BaseAdapter implements RearrangementListener
         return true;
     }
 
+
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
-        if(convertView == null){
-            convertView = LayoutInflater.from(context).inflate(R.layout.list_project, null);
-        }
+    if(convertView == null){
+        convertView = LayoutInflater.from(context).inflate(R.layout.list_project, null);
+    }
         ((TextView)convertView.findViewById(R.id.tv_title)).setText(getItem(position).getName());
+convertView.findViewById(R.id.linear_project).setBackgroundColor(getItem(position).getProject_color());
         return convertView;
     }
 
     public void remove(int position){
-        tasks.remove(position);
+        projects.remove(position);
         notifyDataSetChanged();
     }
-    public void insert(Task project, int position){
-        tasks.add(position, project);
+    public void insert(Project project, int position){
+    projects.add(position, project);
         notifyDataSetChanged();
-    }
+}
     @Override
     public int getItemViewType(int i) {
         return 0;
@@ -97,27 +99,23 @@ public class ProjectAdapter extends BaseAdapter implements RearrangementListener
 
     @Override
     public boolean isEmpty() {
-        return tasks.isEmpty();
+        return projects.isEmpty();
     }
 
-    @Override
+
     public void onStartedRearranging() {
 
     }
 
-    @Override
+
     public void swapElements(int indexOne, int indexTwo) {
-        Task temp1 = getItem(indexOne);
-        Task temp2 = getItem(indexTwo);
-
-        tasks.remove(indexOne);
-        tasks.add(indexOne, temp2);
-
-        tasks.remove(indexTwo);
-        tasks.add(indexTwo, temp1);
+    Project temp = getItem(indexOne);
+        projects.remove(indexOne);
+        projects.add(indexOne, getItem(indexTwo));
+        projects.add(indexTwo, temp);
     }
 
-    @Override
+
     public void onFinishedRearranging() {
 
     }
