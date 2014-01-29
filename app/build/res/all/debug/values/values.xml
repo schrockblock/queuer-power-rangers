@@ -527,6 +527,7 @@
     <eat-comment />
 
     <string name="account_successful">Created Account Successfully</string>
+    <string name="account_unsuccessful">Create Account Unsuccessfully</string>
     <string name="action_add_project">Add Project</string>
     <string name="action_add_task">Add Task</string>
     <string name="action_settings">Settings</string>

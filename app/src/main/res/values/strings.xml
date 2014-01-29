@@ -22,4 +22,6 @@
     <string name="username">Username or Email</string>
     <string name="password">Password</string>
     <string name="account_successful">Created Account Successfully</string>
+    <string name="account_unsuccessful">Create Account Unsuccessfully</string>
+    <string name="action_logout">Log Out</string>
 </resources>

@@ -29,545 +29,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afd791a0-7a64-46d2-8c90-92613b2b9bec" name="Default" comment="Merge remote-tracking branch 'origin/feature/v7_Support' into feature/Leslie/fixed_changes&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;app/build.gradle&#10;&#9;app/src/main/java/com/queuerPowerRangers/app/activities/LoginActivity.java&#10;&#9;local.properties&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ComAndroidSupportAppcompatV71900_aar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ComAndroidSupportAppcompatV71900_aar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_support_v7_appcompat.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__annotations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gson_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gson_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nineoldandroids_2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__support_v4_19_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__volley.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v7_appcompat.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/annotations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/classes.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/classes1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nineoldandroids_2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_19_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/volley.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/annotations-0d3d6698ef25d9da90610a0db157f5bd35e46312.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/classes-7fa269b5052166a646c6fa04142e906357cdbd44.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/gson-2.2.1-20c75aad56cb64ba639eeac73e73e348da23ea35.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/nineoldandroids-2.4.0-846f8ca76b04dada4a3480d79c46b8c36b4d67c9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/support-v4-19.0.0-354250406fa0caf80aaaf8c58a6b85835ddaa982.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/volley-881265fab5457296d29d7cbfe931cfe50409366e.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/queuerPowerRangers/app/R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\.classpath" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\.project" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\R.java.orig" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\libs\android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\anim\abc_fade_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\anim\abc_fade_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\anim\abc_slide_in_bottom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\anim\abc_slide_in_top.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\anim\abc_slide_out_bottom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\anim\abc_slide_out_top.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\color\abc_search_url_text_holo.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_solid_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ab_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_cab_background_bottom_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_cab_background_top_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_cab_background_top_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_ab_back_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_ab_back_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_cab_done_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_cab_done_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_clear_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_clear_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_clear_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_commit_search_api_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_commit_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_go.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_go_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_menu_share_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_menu_share_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_search.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_voice_search.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_ic_voice_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_list_divider_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_list_divider_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_spinner_ab_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_textfield_search_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_textfield_search_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-hdpi\abc_textfield_search_selected_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_solid_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ab_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_cab_background_bottom_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_cab_background_top_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_cab_background_top_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_ab_back_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_ab_back_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_cab_done_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_cab_done_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_clear_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_clear_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_clear_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_commit_search_api_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_commit_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_go.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_go_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_menu_share_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_menu_share_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_search.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_voice_search.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_ic_voice_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_list_divider_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_list_divider_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_spinner_ab_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_textfield_search_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_textfield_search_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-mdpi\abc_textfield_search_selected_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_solid_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ab_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_cab_background_bottom_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_cab_background_top_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_cab_background_top_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_ab_back_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_ab_back_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_cab_done_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_cab_done_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_clear_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_clear_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_commit_search_api_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_commit_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_go.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_go_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_menu_share_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_menu_share_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_search.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_voice_search.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_ic_voice_search_api_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_list_divider_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_list_divider_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_spinner_ab_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_textfield_search_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_textfield_search_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable-xhdpi\abc_textfield_search_selected_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_ic_clear.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_ic_clear_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_item_background_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_item_background_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_list_selector_background_transition_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_list_selector_background_transition_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_list_selector_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_list_selector_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_search_dropdown_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_search_dropdown_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_spinner_ab_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_spinner_ab_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_tab_indicator_ab_holo.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_textfield_searchview_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_textfield_searchview_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_textfield_searchview_right_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\drawable\abc_textfield_searchview_right_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout-v11\abc_action_bar_decor.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout-v14\abc_activity_chooser_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_bar_decor.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_bar_decor_include.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_bar_decor_overlay.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_bar_home.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_bar_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_bar_tabbar.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_bar_title_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_bar_view_list_nav_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_menu_item_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_menu_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_mode_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_action_mode_close_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_activity_chooser_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_activity_chooser_view_include.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_activity_chooser_view_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_expanded_menu_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_list_menu_item_checkbox.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_list_menu_item_icon.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_list_menu_item_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_list_menu_item_radio.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_popup_menu_item_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_search_dropdown_item_icons_2line.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\abc_search_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\layout\support_simple_spinner_dropdown_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-af\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-am\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-ar\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-bg\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-ca\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-cs\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-da\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-de\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-el\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-en-rGB\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-en-rIN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-es-rUS\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-es\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-et-rEE\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-fa\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-fi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-fr-rCA\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-fr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-hi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-hr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-hu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-hy-rAM\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-in\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-it\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-iw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-ja\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-ka-rGE\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-km-rKH\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-ko\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-land\bools.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-land\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-land\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-large\bools.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-large\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-large\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-lo-rLA\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-lt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-lv\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-mn-rMN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-ms-rMY\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-nb\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-nl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-pl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-pt-rPT\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-pt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-ro\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-ru\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-sk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-sl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-sr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-sv\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-sw600dp\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-sw600dp\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-sw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-th\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-tl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-tr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-uk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-v11\styles_base.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-v11\themes_base.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-v14\styles_base.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-v14\themes_base.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-vi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-w360dp\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-w480dp\bools.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-w480dp\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-w500dp\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-w600dp\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-w720dp\bools.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-xlarge\bools.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-xlarge\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-zh-rCN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-zh-rHK\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-zh-rTW\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values-zu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\bools.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\ids.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\styles_base.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\themes.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\res\values\themes_base.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\appcompat\src\.readme" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\gridlayout\.classpath" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\gridlayout\.project" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\gridlayout\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\gridlayout\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\gridlayout\libs\android-support-v7-gridlayout.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\gridlayout\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\gridlayout\res\values\attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\gridlayout\res\values\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\gridlayout\src\.readme" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\.classpath" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\.project" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\libs\android-support-v7-mediarouter.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_audio_vol.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_off_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_off_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_on_0_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_on_0_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_on_1_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_on_1_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_on_2_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_on_2_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_on_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-hdpi\mr_ic_media_route_on_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_audio_vol.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_off_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_off_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_on_0_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_on_0_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_on_1_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_on_1_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_on_2_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_on_2_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_on_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-mdpi\mr_ic_media_route_on_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_audio_vol.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_off_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_off_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_on_0_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_on_0_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_on_1_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_on_1_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_on_2_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_on_2_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_on_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xhdpi\mr_ic_media_route_on_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_audio_vol.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_off_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_off_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_on_0_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_on_0_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_on_1_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_on_1_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_on_2_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_on_2_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_on_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable-xxhdpi\mr_ic_media_route_on_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable\mr_ic_media_route_connecting_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable\mr_ic_media_route_connecting_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable\mr_ic_media_route_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\drawable\mr_ic_media_route_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\layout-v11\mr_media_route_controller_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\layout-v17\mr_media_route_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\layout\mr_media_route_chooser_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\layout\mr_media_route_controller_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\layout\mr_media_route_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-af\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-am\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-ar\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-bg\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-ca\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-cs\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-da\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-de\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-el\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-en-rGB\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-en-rIN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-es-rUS\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-es\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-et-rEE\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-fa\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-fi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-fr-rCA\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-fr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-hi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-hr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-hu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-hy-rAM\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-in\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-it\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-iw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-ja\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-ka-rGE\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-km-rKH\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-ko\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-lo-rLA\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-lt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-lv\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-mn-rMN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-ms-rMY\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-nb\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-nl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-pl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-pt-rPT\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-pt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-ro\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-ru\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-sk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-sl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-sr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-sv\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-sw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-th\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-tl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-tr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-uk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-vi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-zh-rCN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-zh-rHK\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-zh-rTW\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values-zu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values\attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values\styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\res\values\themes.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\android\support\v7\mediarouter\src\.readme" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\build\source\r\debug\com\queuerPowerRangers\app\R.java.orig" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\src\main\gen\com\queuerPowerRangers\app\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\src\main\gen\com\queuerPowerRangers\app\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\src\main\gen\com\queuerPowerRangers\app\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rotios\Documents\GitHub\queuer-power-rangers\app\src\main\res\menu\feed.xml.orig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/CreateAccountModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/log_out.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/queuerPowerRangers/app/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/queuerPowerRangers/app/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/SignInModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/SignInModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/create_account.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/create_account.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/feed.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/feed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/project.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/project.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="queuer-power-rangers.iws" />
@@ -635,117 +112,91 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="11" selection-start="1308" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
+            <state line="44" column="11" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2363">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateAccountActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProjectActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="60" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="1513">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/ProjectAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="31" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1989">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateAccountModel.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/CreateAccountModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="14" selection-start="321" selection-end="321" vertical-scroll-proportion="0.44894367" vertical-offset="0" max-vertical-offset="568">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskDataSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="29" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectDataSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/project.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding>
+                <element signature="e#313#338#0" expanded="true" />
+                <element signature="e#479#502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateAccountActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="15" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.18333334" vertical-offset="972" max-vertical-offset="1734">
+            <state line="51" column="0" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_account.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/create_account.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="FeedActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="38" selection-start="1462" selection-end="1462" vertical-scroll-proportion="-9.962963" vertical-offset="394" max-vertical-offset="1224">
-              <folding>
-                <element signature="e#456#474#0" expanded="true" />
-                <element signature="e#664#697#0" expanded="true" />
-                <element signature="e#728#761#0" expanded="true" />
-                <element signature="e#1052#1070#0" expanded="true" />
-                <element signature="e#1310#1334#0" expanded="true" />
-                <element signature="e#1828#1856#0" expanded="true" />
-                <element signature="e#2162#2184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_project.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_project.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.8888888" vertical-offset="105" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_project.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_project.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="32" selection-start="2270" selection-end="2270" vertical-scroll-proportion="-6.0363636" vertical-offset="705" max-vertical-offset="1207">
-              <folding>
-                <element signature="e#265#300#0" expanded="true" />
-                <element signature="e#326#361#0" expanded="true" />
-                <element signature="e#385#418#0" expanded="true" />
-                <element signature="e#445#478#0" expanded="true" />
-                <element signature="e#2213#2237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="84" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="935">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="45" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="28" column="6" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1717">
               <folding />
             </state>
           </provider>
@@ -1146,7 +597,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/Account_Creator.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/Login_Creator.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/SignInModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/NewAccountModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/managers/LoginManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/AccountModel.java" />
@@ -1157,8 +607,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_feed.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Views/EnhancedListView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/project.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/feed.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/new_project.xml" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/activities/FeedActivity.java" />
@@ -1169,20 +617,30 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/managers/CreateAccountManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/build/source/r/debug/com/queuerPowerRangers/app/R.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/app.iml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/SignInModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/CreateAccountModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/create_account.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/User.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/log_out.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/feed.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/project.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="8" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
@@ -1263,92 +721,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1640,8 +1012,8 @@
     <property name="recentsLimit" value="5" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="MyAvd0" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="LG-MS770-8ed15d8" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_S" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="project.structure.last.edited" value="Android SDK" />
@@ -1687,19 +1059,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1725,6 +1084,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1839,7 +1211,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="8" width="1938" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1851,19 +1223,19 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.6538871" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36036035" sideWeight="0.5005325" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882884" sideWeight="0.30777422" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36036035" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.6924307" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882884" sideWeight="0.69222575" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23269436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23056443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.49946752" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1891,56 +1263,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/new_task.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="577" selection-end="577" vertical-scroll-proportion="-10.074074" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/new_project.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="15" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="27" selection-start="3625" selection-end="3625" vertical-scroll-proportion="0.6494845" vertical-offset="1101" max-vertical-offset="1683" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectOpenHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.029209621" vertical-offset="102" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="366" selection-end="366" vertical-scroll-proportion="0.029209621" vertical-offset="102" max-vertical-offset="1819" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Interfaces/LoginManagerCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="215" selection-end="215" vertical-scroll-proportion="0.26288658" vertical-offset="0" max-vertical-offset="582" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Packages/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="441" selection-end="441" vertical-scroll-proportion="0.29209623" vertical-offset="0" max-vertical-offset="582" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Packages/QueuerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="308" selection-end="308" vertical-scroll-proportion="0.29209623" vertical-offset="0" max-vertical-offset="582" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Views/EnhancedListView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="925" column="6" selection-start="35538" selection-end="35538" vertical-scroll-proportion="0.6941581" vertical-offset="14267" max-vertical-offset="22525">
@@ -1948,28 +1270,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/SignInModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="0" selection-end="613" vertical-scroll-proportion="0.14604811" vertical-offset="0" max-vertical-offset="582" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="57" selection-start="994" selection-end="994" vertical-scroll-proportion="-0.14604811" vertical-offset="595" max-vertical-offset="1207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="67" selection-start="3677" selection-end="3708" vertical-scroll-proportion="0.4450172" vertical-offset="931" max-vertical-offset="1513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1815">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1815" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java">
@@ -1984,30 +1287,9 @@
         <state line="132" column="35" selection-start="3654" selection-end="3655" vertical-scroll-proportion="0.0" vertical-offset="2095" max-vertical-offset="2890" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="477" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="1" selection-start="2643" selection-end="2707" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/.name">
@@ -2017,37 +1299,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/ComAndroidSupportAppcompatV71900_aar.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/annotations.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/android_support_v7_appcompat.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/support_v4_19_0_0.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/app/src/main/Libs/android-support-v7-appcompat.jar!/META-INF/MANIFEST.MF">
@@ -2062,74 +1334,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/classes1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/proguard-rules.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="5" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0" vertical-offset="1324" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/ProjectAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="31" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1989">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="3" column="9" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="477">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="477" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -2141,9 +1376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="75" selection-start="5906" selection-end="5906" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1496">
-          <folding />
-        </state>
+        <state line="78" column="75" selection-start="5906" selection-end="5906" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1496" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
@@ -2155,33 +1388,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/Gradle__android_support_v7_appcompat.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="84" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="11" selection-start="1308" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.8888888" vertical-offset="105" max-vertical-offset="646">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
@@ -2192,69 +1409,211 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_project.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_project.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_project.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="5" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0" vertical-offset="1324" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="28" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.0" vertical-offset="301" max-vertical-offset="935">
+          <folding>
+            <element signature="e#504#522#0" expanded="false" />
+            <element signature="e#831#849#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Packages/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="26" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="57" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/SignInModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding>
+            <element signature="e#338#339#0" expanded="false" />
+            <element signature="e#369#370#0" expanded="false" />
+            <element signature="e#417#418#0" expanded="false" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#571#572#0" expanded="false" />
+            <element signature="e#611#612#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="37" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1717">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="45" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+        <state line="25" column="40" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/create_account.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="33" selection-start="1516" selection-end="1622" vertical-scroll-proportion="-3.7272727" vertical-offset="543" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="32" selection-start="2270" selection-end="2270" vertical-scroll-proportion="-6.0363636" vertical-offset="705" max-vertical-offset="1207">
+        <state line="23" column="41" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/log_out.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="287" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding>
-            <element signature="e#265#300#0" expanded="true" />
-            <element signature="e#326#361#0" expanded="true" />
-            <element signature="e#385#418#0" expanded="true" />
-            <element signature="e#445#478#0" expanded="true" />
-            <element signature="e#2213#2237#0" expanded="true" />
+            <element signature="e#352#375#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/create_account.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/feed.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="38" selection-start="1462" selection-end="1462" vertical-scroll-proportion="-9.962963" vertical-offset="394" max-vertical-offset="1224">
+        <state line="13" column="35" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding>
-            <element signature="e#456#474#0" expanded="true" />
-            <element signature="e#664#697#0" expanded="true" />
-            <element signature="e#728#761#0" expanded="true" />
-            <element signature="e#1052#1070#0" expanded="true" />
-            <element signature="e#1310#1334#0" expanded="true" />
-            <element signature="e#1828#1856#0" expanded="true" />
-            <element signature="e#2162#2184#0" expanded="true" />
+            <element signature="e#316#344#0" expanded="true" />
+            <element signature="e#485#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding>
+            <element signature="e#317#342#0" expanded="true" />
+            <element signature="e#483#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding>
+            <element signature="e#313#338#0" expanded="true" />
+            <element signature="e#479#502#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="15" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.18333334" vertical-offset="972" max-vertical-offset="1734">
+        <state line="51" column="0" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="6" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="11" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="60" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/ProjectAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="31" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="29" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/CreateAccountModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="321" selection-end="321" vertical-scroll-proportion="0.44894367" vertical-offset="0" max-vertical-offset="568">
           <folding />
         </state>
       </provider>

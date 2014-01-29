@@ -10,6 +10,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,7 +27,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.fragment_login);
 
         Button login = (Button)findViewById(R.id.btn_login);
         final EditText user = (EditText)findViewById(R.id.et_username);
@@ -39,7 +40,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                 //change AccountActivity to the class you want to switch to then uncomment
                 Intent i = new Intent(getApplicationContext(), CreateAccountActivity.class);
                 startActivity(i);
-                onPause();
+                onStop();
             }
         });
         login.setOnClickListener(new View.OnClickListener() {
@@ -56,9 +57,9 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                     editor.putString("password", pass.getText().toString());
                     editor.commit();
                 }
-                    Intent i = new Intent(getApplicationContext(), FeedActivity.class);
+                  /*  Intent i = new Intent(getApplicationContext(), FeedActivity.class);
                     startActivity(i);
-                    finish();
+                    finish();*/
                LoginManager manager = LoginManager.getInstance();
                 manager.setCallback(LoginActivity.this, LoginActivity.this);
                 try {
@@ -106,10 +107,12 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         findViewById(R.id.login_unsuccessful).setVisibility(View.GONE);
 
         if(successful){
+            Log.d("THIS HAPPENED", "LOGIN WAS SUCCESSFUL");
             Intent i = new Intent(getApplicationContext(), com.queuerPowerRangers.app.Activities.FeedActivity.class);
             startActivity(i);
             finish();
     }else{
+            Log.d("THIS HAPPENED", "LOGIN WAS UNSUCCESSFUL");
             findViewById(R.id.login_unsuccessful).setVisibility(View.VISIBLE);
             findViewById(R.id.create_account).setVisibility(View.VISIBLE);
         }

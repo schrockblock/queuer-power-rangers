@@ -45,7 +45,7 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
                 //change AccountActivity to the class you want to switch to then uncomment
                 Intent i = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(i);
-                onPause();
+                onStop();
             }
         });
     }
@@ -59,12 +59,12 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
     public void finishedRequest(boolean successful) {
         progressBar.setVisibility(View.GONE);
         if(successful) {
-            account_successful.setText("Account Created Successfully");
+            account_successful.setVisibility(View.VISIBLE);
         } else {
-            account_successful.setText("Error: Account could not be created");
+           findViewById(R.id.account_unsuccessful).setVisibility(View.VISIBLE);
+
         }
-        account_successful.setVisibility(View.VISIBLE);
-        return;
+
     }
 
     public void create_account(View view) {

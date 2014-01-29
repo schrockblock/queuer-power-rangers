@@ -1,9 +1,17 @@
 package com.queuerPowerRangers.app.Managers;
 
+import com.android.volley.NetworkResponse;
+import com.android.volley.ParseError;
+import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.HttpHeaderParser;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
+import com.queuerPowerRangers.app.Models.User;
+import com.queuerPowerRangers.app.Packages.Constants;
 import com.queuerPowerRangers.app.Packages.QueuerApplication;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 
@@ -14,6 +22,8 @@ import com.queuerPowerRangers.app.Models.SignInModel;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.io.UnsupportedEncodingException;
 
 /**
  * Created by Ross on 1/7/14.
@@ -44,25 +54,40 @@ public class LoginManager{
 
     private void authenticate(String username, String password){
         application.setRequestQueue(Volley.newRequestQueue(context));
-        SignInModel model = new SignInModel(username, password);
         JSONObject signInJson = null;
-        String jsonString = new Gson().toJson(model);
+        String jsonString = new Gson().toJson(new User(username, password));
         try {
-            Log.d("LoginManager", "This happened" + jsonString );
+            Log.d("THIS HAPPENED", "This happened " + jsonString );
             signInJson = new JSONObject(jsonString);
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, Constants.QUEUER_SESSION_URL, signInJson, createListener(), createErrorListener()) {
+            protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
+                try {
+                    String json = new String(
+                            response.data, HttpHeaderParser.parseCharset(response.headers));
+                    return Response.success(
+                            new Gson().fromJson(json, JSONObject.class), HttpHeaderParser.parseCacheHeaders(response));
+                }catch (UnsupportedEncodingException e) {
+                    return Response.error(new ParseError(e));
+                }catch (JsonSyntaxException e) {
+                    return Response.error(new ParseError(e));
+                }
+            }
+        };
+        application.getRequestQueue().add(request);
     }
 
     private void authenticatedSuccessfully() throws Exception {
         if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
+        Log.d("THIS HAPPENED", "SUCCESSFULLY AUTHENTICATED LOGINMANAGER");
         callback.finishedRequest(true);
     }
 
     private void authenticatedUnsuccessfully() throws Exception {
         if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
+        Log.d("THIS HAPPENED", "UNSUCCESSFULLY AUTHENTICATED LOGINMANAGER");
         callback.finishedRequest(false);
     }
 
@@ -71,11 +96,11 @@ public class LoginManager{
             @Override
             public void onErrorResponse(VolleyError error) {
                 if (error.networkResponse != null) {
-                    Log.d("LoginActivity", "Error Response code: " + error.networkResponse.statusCode);
+                    Log.d("THIS HAPPENED", "Error Response code: " + error.networkResponse.statusCode);
                     try {
                         authenticatedUnsuccessfully();
                     } catch (Exception e) {
-                        Log.d("LoginActivity", "Error authenticating");
+                        Log.d("THIS HAPPENED", "Error authenticating");
                         e.printStackTrace();
                     }
                 }
@@ -86,11 +111,11 @@ public class LoginManager{
             @Override
             public void onResponse(JSONObject JSONObject) {
                 try {
-                    Log.d("LoginActivity", "Success Response: " + JSONObject.toString());
+                    Log.d("THIS HAPPENED", "Success Response: " + JSONObject.toString());
                     authenticatedSuccessfully();
                 } catch (Exception e) {
                     e.printStackTrace();
-                    Log.d("LoginActivity", "Error Authenticating");
+                    Log.d("THIS HAPPENED", "Error Authenticating");
                 }
             }
         };

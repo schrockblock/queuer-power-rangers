@@ -4,9 +4,15 @@ import android.content.Context;
 import android.util.Log;
 
 import com.android.volley.*;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.gson.Gson;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
+import com.queuerPowerRangers.app.Models.CreateAccountModel;
+import com.queuerPowerRangers.app.Models.User;
+
+import org.json.JSONObject;
 
 /**
  * Created by Michael on 1/14/14.
@@ -15,6 +21,8 @@ public class CreateAccountManager {
 
     LoginManagerCallback callback;
     Context context;
+    RequestQueue requestQueue;
+
 
     public void setCallback(Context context, LoginManagerCallback callback) {
         this.context = context;
@@ -27,17 +35,22 @@ public class CreateAccountManager {
         create(username, password);
     }
 
-    private void create( String username, String password){
-        RequestQueue requestQueue = Volley.newRequestQueue(context.getApplicationContext());
-        Response.Listener<String> listener = new Response.Listener<String>(){
+    private void create( String username, String password)throws Exception{
+        // package in Gson
+        Gson gson = new Gson();
+        String json = gson.toJson(new CreateAccountModel(new User(username, password)));
+        System.out.println("Json: " + json);
+        // send with volley
+        requestQueue = Volley.newRequestQueue(context.getApplicationContext());
+        Response.Listener<JSONObject> listener = new Response.Listener<JSONObject>(){
             @Override
-            public void onResponse(String response){
-                    Log.d("Connection", "Success Response: " + response.toString());
-                    try {
-                        createdSuccessfully();
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
+            public void onResponse(JSONObject response){
+                Log.d("Connection", "Success Response: " + response.toString());
+                try {
+                    createdSuccessfully();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
 
         };
@@ -54,14 +67,17 @@ public class CreateAccountManager {
                 }
             }
         };
-        StringRequest request = new StringRequest(
+
+        JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.POST,
                 "http://queuer-rndapp.rhcloud.com/api/v1/users",
+                new JSONObject(json),
                 listener,
                 errorListener);
 
 
         requestQueue.add(request);
+
     }
 
     private void createdSuccessfully() throws Exception{
