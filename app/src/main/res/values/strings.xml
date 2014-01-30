@@ -30,4 +30,5 @@
     <string name="finish">Exit</string>
     <string name="edit_task">Edit Tasks</string>
     <string name="edit_project">Edit Project</string>
+    <string name="no_task">NO TASKS AVAILABLE</string>
 </resources>

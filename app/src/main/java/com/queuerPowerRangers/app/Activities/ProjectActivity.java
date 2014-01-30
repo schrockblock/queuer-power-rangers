@@ -12,12 +12,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.TextView;
 
 import com.queuerPowerRangers.app.Databases.TaskDataSource;
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Adapters.ProjectAdapter;
 import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.Views.EnhancedListView;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -135,7 +139,6 @@ public class ProjectActivity extends ActionBarActivity {
                                     Log.d("THIS HAPPENED", task_name + "  ");
                                     //task.setColor(color)
                                     tasks.add(0, task);
-
                                     adapter.notifyDataSetChanged();
                                 }
                             }
@@ -168,14 +171,13 @@ public class ProjectActivity extends ActionBarActivity {
                     String task_name = taskTitle.getText().toString();
                     if (taskTitle == null || task_name.equals("")) {
                         taskTitle.requestFocus();
-                        taskTitle.setHint("ide a task title");
+                        taskTitle.setHint("Please provide a task title");
                     } else{
                     tasks.remove(edit_task);
                     edit_task.setName(task_name);
                     edit_task.setProject_id(project_id);
-                     tasks.add(0, edit_task);
-                        taskDataSource.updateTask(edit_task);
-                     adapter.notifyDataSetChanged();
+                    tasks.add(0, edit_task);
+                    adapter.notifyDataSetChanged();
                     }
                 }
             })
