@@ -49,7 +49,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                 //change AccountActivity to the class you want to switch to then uncomment
                 Intent i = new Intent(getApplicationContext(), CreateAccountActivity.class);
                 startActivity(i);
-                onStop();
+                finish();
             }
         });
         //set on click listener to login in a persn when needed

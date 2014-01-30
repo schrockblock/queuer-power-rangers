@@ -158,7 +158,7 @@ public class FeedActivity extends ActionBarActivity {
                                     projects.remove(edit_project);
                                     edit_project.setName(project_name);
                                     projects.add(0, edit_project);
-                                    projectDataSource.updateProject(edit_project);
+                                    //projectDataSource.updateProject(edit_project);
                                     adapter.notifyDataSetChanged();
                                 }
                             }
