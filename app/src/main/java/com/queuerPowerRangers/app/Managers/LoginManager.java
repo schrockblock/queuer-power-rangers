@@ -105,13 +105,20 @@ public class LoginManager{
             @Override
             public void onResponse(JSONObject response){
                 Log.d("Connection", "Success Response: " + response.toString());
+                if(!response.has("errors")){
                 try {
                     authenticatedSuccessfully();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+            } else
+                    System.out.println(response);
+                    try {
+                    authenticatedUnsuccessfully();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
-
         };
         Response.ErrorListener errorListener = new Response.ErrorListener(){
             @Override
@@ -129,7 +136,7 @@ public class LoginManager{
 
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.POST,
-                "http://queuer-rndapp.rhcloud.com/api/v1/users",
+                Constants.QUEUER_SESSION_URL,
                 signInJson,
                 listener,
                 errorListener);

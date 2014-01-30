@@ -1,8 +1,10 @@
 package com.queuerPowerRangers.app.Activities;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
@@ -59,12 +61,21 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
         progressBar.setVisibility(View.GONE);
         if(successful) {
             account_successful.setVisibility(View.VISIBLE);
-            Intent i = new Intent(getApplicationContext(), LoginActivity.class);
-            i.putExtra("login_name", username_text.getText().toString());
-            i.putExtra("login_password", password_text.getText().toString());
+           CheckBox remember = (CheckBox)findViewById(R.id.remember_new);
+            System.out.println("successful creation");
+            if(remember.isChecked()){
+            SharedPreferences preferences = getSharedPreferences("login", Activity.MODE_PRIVATE);
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putBoolean("remember", true);
+            editor.putString("username", username_text.getText().toString());
+            editor.putString("password", password_text.getText().toString());
+            editor.commit();
+            }
+            Intent i = new Intent(getApplicationContext(), FeedActivity.class);
             startActivity(i);
             finish();
         } else {
+            System.out.println("not successful creation");
            findViewById(R.id.account_unsuccessful).setVisibility(View.VISIBLE);
 
         }
@@ -90,8 +101,7 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
 
     //Cannot login without first typing in something in the name and password field
     public void showAlertDialogueBox(){
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
-                CreateAccountActivity.this);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(CreateAccountActivity.this);
 
         // set title
         alertDialogBuilder.setTitle("Please provide a username and password!");
@@ -105,6 +115,10 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
                         // if this button is clicked, close
                         // current activity
                         dialog.cancel();
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
                     }
                 });
         // create alert dialog

@@ -25,16 +25,21 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53920a34-a42c-4206-ab64-fedbcc774c4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/CreateAccountModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/SignInModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Task.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Task.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskDataSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/create_account.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/create_account.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="queuer-power-rangers.iws" />
@@ -104,11 +109,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="CreateAccountActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="58" selection-start="3051" selection-end="3051" vertical-scroll-proportion="-15.392858" vertical-offset="623" max-vertical-offset="2006">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="203" column="52" selection-start="8820" selection-end="8820" vertical-scroll-proportion="0.0" vertical-offset="2439" max-vertical-offset="3026">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="0" selection-start="3182" selection-end="3182" vertical-scroll-proportion="8.785714" vertical-offset="1368" max-vertical-offset="2771">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6068#6366#0" expanded="true" />
+                <element signature="e#6347#6348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerThread.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/HandlerThread.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileInputStream.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/io/FileInputStream.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="0" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LoginManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="5" selection-start="5258" selection-end="5258" vertical-scroll-proportion="0.0" vertical-offset="1049" max-vertical-offset="1615">
-              <folding />
+            <state line="150" column="39" selection-start="5522" selection-end="5522" vertical-scroll-proportion="-72.53571" vertical-offset="468" max-vertical-offset="2754">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3743#4423#0" expanded="true" />
+                <element signature="e#4412#4413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateAccountManager.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="24" selection-start="2553" selection-end="2553" vertical-scroll-proportion="0.41519433" vertical-offset="632" max-vertical-offset="1700">
+              <folding>
+                <element signature="e#2123#2776#0" expanded="true" />
+                <element signature="e#2764#2765#0" expanded="true" />
+                <element signature="e#2825#3318#0" expanded="true" />
+                <element signature="e#3307#3308#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,77 +194,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueuerApplication.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Packages/QueuerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.21024735" vertical-offset="0" max-vertical-offset="566">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateAccountManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="100" selection-start="2768" selection-end="2768" vertical-scroll-proportion="0.0" vertical-offset="743" max-vertical-offset="1751">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeedAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="5" selection-start="2785" selection-end="2785" vertical-scroll-proportion="0.0" vertical-offset="1270" max-vertical-offset="1836">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/ProjectAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="5" selection-start="2486" selection-end="2486" vertical-scroll-proportion="0.0" vertical-offset="1064" max-vertical-offset="2108">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectDataSource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="38" selection-start="3504" selection-end="3504" vertical-scroll-proportion="0.0" vertical-offset="610" max-vertical-offset="1989">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TaskOpenHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskOpenHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="44" selection-start="793" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1020">
+            <state line="13" column="44" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectOpenHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectOpenHelper.java">
+      <file leaf-file-name="ProjectActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="969">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskDataSource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="23" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="1836">
+            <state line="177" column="20" selection-start="7572" selection-end="7572" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="3672">
               <folding />
             </state>
           </provider>
@@ -589,25 +603,27 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/new_task.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/stop_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/stop_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskDataSource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/feed.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/edit_task.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/ProjectAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/edit_project.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/create_account.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/CreateAccountModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/SignInModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Task.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/User.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/create_account.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Task.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java" />
       </list>
     </option>
   </component>
@@ -647,6 +663,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -783,66 +800,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -874,10 +831,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1012,36 +965,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queuer-power-rangers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Databases" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -1117,7 +1040,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1129,9 +1051,10 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="LG-MS770-8ed15d8" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_S" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Fastest" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1318,37 +1241,57 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295711" sideWeight="0.33919063" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295711" sideWeight="0.6608094" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.6608094" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24121405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24121405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1369,55 +1312,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/new_project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/new_task.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/log_out.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="8" column="44" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
@@ -1430,9 +1337,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="9" selection-start="3877" selection-end="5389" vertical-scroll-proportion="0.0" vertical-offset="2244" max-vertical-offset="2431">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1469,9 +1374,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/stop_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
+        <state line="10" column="7" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -1482,67 +1385,48 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/new_project.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="34" selection-start="653" selection-end="653" vertical-scroll-proportion="0.56771797" vertical-offset="0" max-vertical-offset="539">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/login.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="1" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/new_task.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="17" selection-start="0" selection-end="833" vertical-scroll-proportion="-14.481482" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/project.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/log_out.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="8" column="44" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="507" column="33" selection-start="20174" selection-end="20174" vertical-scroll-proportion="0.0" vertical-offset="7751" max-vertical-offset="12631">
-          <folding />
-        </state>
+        <state line="507" column="33" selection-start="20174" selection-end="20174" vertical-scroll-proportion="0.0" vertical-offset="7751" max-vertical-offset="12631" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/edit_task.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding>
-            <element signature="e#491#510#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="6" column="24" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
@@ -1553,263 +1437,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_project.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_projects.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_project.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_project.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit_project.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit_project.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="24" selection-start="495" selection-end="495" vertical-scroll-proportion="-7.5555553" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="160" selection-end="478" vertical-scroll-proportion="-2.5185184" vertical-offset="0" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/create_account.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1292">
-          <folding>
-            <element signature="e#296#331#0" expanded="true" />
-            <element signature="e#357#392#0" expanded="true" />
-            <element signature="e#416#449#0" expanded="true" />
-            <element signature="e#476#509#0" expanded="true" />
-            <element signature="e#657#675#0" expanded="true" />
-            <element signature="e#1016#1034#0" expanded="true" />
-            <element signature="e#1160#1184#0" expanded="true" />
-            <element signature="e#1682#1710#0" expanded="true" />
-            <element signature="e#1952#1982#0" expanded="true" />
-            <element signature="e#2288#2310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/feed.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="15" column="7" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/CreateAccountModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="6" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.0" vertical-offset="1627" max-vertical-offset="2261">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-            <element signature="e#1779#1780#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
-            <element signature="e#1875#1876#0" expanded="true" />
-            <element signature="e#1909#1910#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2099#2100#0" expanded="true" />
-            <element signature="e#2132#2133#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-            <element signature="e#2226#2227#0" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2449#2450#0" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
-            <element signature="e#2530#2531#0" expanded="true" />
-            <element signature="e#2561#2562#0" expanded="true" />
-            <element signature="e#2588#2589#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
-            <element signature="e#2694#2695#0" expanded="true" />
-            <element signature="e#2727#2728#0" expanded="true" />
-            <element signature="e#2776#2777#0" expanded="true" />
-            <element signature="e#2820#2821#0" expanded="true" />
-            <element signature="e#2857#2858#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#2948#2949#0" expanded="true" />
-            <element signature="e#2999#3000#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="21" column="1" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/SignInModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="1" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.0" vertical-offset="1202" max-vertical-offset="1836">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#1841#1842#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
-            <element signature="e#1953#1954#0" expanded="true" />
-            <element signature="e#1980#1981#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2086#2087#0" expanded="true" />
-            <element signature="e#2119#2120#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="22" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="16" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="1972">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="42" selection-start="4487" selection-end="4494" vertical-scroll-proportion="0.3162544" vertical-offset="1606" max-vertical-offset="3162">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="63" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="2686">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="38" selection-start="5488" selection-end="5488" vertical-scroll-proportion="-9.178572" vertical-offset="1817" max-vertical-offset="3655">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2185#2767#0" expanded="true" />
-            <element signature="e#2486#2742#0" expanded="true" />
-            <element signature="e#2723#2724#0" expanded="true" />
-            <element signature="e#2756#2757#0" expanded="true" />
-            <element signature="e#2895#3169#0" expanded="true" />
-            <element signature="e#3158#3159#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="18" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/FeedAdapter.java">
@@ -1822,52 +1516,103 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Adapters/ProjectAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="104" column="5" selection-start="2486" selection-end="2486" vertical-scroll-proportion="0.0" vertical-offset="1064" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Packages/QueuerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#375#376#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="44" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="2" selection-start="971" selection-end="1148" vertical-scroll-proportion="-13.851851" vertical-offset="68" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/create_account.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="6" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/database/sqlite/SQLiteDatabase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="99" selection-start="4832" selection-end="4884" vertical-scroll-proportion="0.03074141" vertical-offset="1887" max-vertical-offset="3213" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectOpenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="969">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="38" selection-start="3504" selection-end="3504" vertical-scroll-proportion="0.0" vertical-offset="610" max-vertical-offset="1989">
+        <state line="64" column="20" selection-start="2488" selection-end="2488" vertical-scroll-proportion="0.0" vertical-offset="913" max-vertical-offset="2006">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/ProjectOpenHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Views/EnhancedListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <folding />
-        </state>
+        <state line="167" column="17" selection-start="6891" selection-end="6891" vertical-scroll-proportion="0.8957597" vertical-offset="1550" max-vertical-offset="22525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="23" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="1836">
+        <state line="40" column="100" selection-start="1146" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="2023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Models/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="8" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Databases/TaskOpenHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="793" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1020">
+        <state line="13" column="44" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/ProjectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="100" selection-start="2768" selection-end="2768" vertical-scroll-proportion="0.0" vertical-offset="743" max-vertical-offset="1751">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="5" selection-start="5258" selection-end="5258" vertical-scroll-proportion="0.0" vertical-offset="1010" max-vertical-offset="1683">
+        <state line="177" column="20" selection-start="7572" selection-end="7572" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="3672">
           <folding />
         </state>
       </provider>
@@ -1879,10 +1624,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Packages/QueuerApplication.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/HandlerThread.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.21024735" vertical-offset="0" max-vertical-offset="566">
+        <state line="22" column="0" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/io/FileInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/CreateAccountActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="58" selection-start="3051" selection-end="3051" vertical-scroll-proportion="-15.392858" vertical-offset="623" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/FeedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="52" selection-start="8820" selection-end="8820" vertical-scroll-proportion="0.0" vertical-offset="2439" max-vertical-offset="3026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Activities/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="3182" selection-end="3182" vertical-scroll-proportion="8.785714" vertical-offset="1368" max-vertical-offset="2771">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6068#6366#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/LoginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="39" selection-start="5522" selection-end="5522" vertical-scroll-proportion="-72.53571" vertical-offset="468" max-vertical-offset="2754">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3743#4423#0" expanded="true" />
+            <element signature="e#4412#4413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/queuerPowerRangers/app/Managers/CreateAccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="24" selection-start="2553" selection-end="2553" vertical-scroll-proportion="0.41519433" vertical-offset="632" max-vertical-offset="1700">
+          <folding>
+            <element signature="e#2123#2776#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2825#3318#0" expanded="true" />
+            <element signature="e#3307#3308#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

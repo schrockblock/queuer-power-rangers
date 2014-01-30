@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.queuerPowerRangers.app.Databases.ProjectDataSource;
 import com.queuerPowerRangers.app.Models.Task;
@@ -32,27 +33,29 @@ import static android.widget.AdapterView.*;
  * Created by Rotios on 1/15/14.
  */
 public class FeedActivity extends ActionBarActivity {
-    private int project_id;
+    private int project_id = 0;
     private ArrayList<Project> projects = new ArrayList<Project>();
     private FeedAdapter adapter;
+    ProjectDataSource projectDataSource;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feed);
 
-
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Project List");
-        ProjectDataSource projectDataSource = new ProjectDataSource(this);
+
+        projectDataSource = new ProjectDataSource(this);
         try {
             projectDataSource.open();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        projectDataSource.deleteAllProjects();
         projects = projectDataSource.getAllProjects();
         projectDataSource.close();
+
+        //get the adapter for the view
         adapter = new FeedAdapter(this, projects);
         EnhancedListView listView = (EnhancedListView)findViewById(R.id.activity_feed);
         listView.setAdapter(adapter);
@@ -64,14 +67,17 @@ public class FeedActivity extends ActionBarActivity {
             public EnhancedListView.Undoable onDismiss(EnhancedListView listView, final int position) {
                 final Project project = adapter.getItem(position);
                 adapter.remove(position);
-                return new EnhancedListView.Undoable() {
-                    @Override
-                    public void undo() {
-                        adapter.insert(project, position);
-                    }
-                };
-            }
-        });
+                projectDataSource.open();
+                projectDataSource.deleteProject(project);
+                projectDataSource.close();
+                adapter.notifyDataSetChanged();
+            return new EnhancedListView.Undoable() {
+                @Override
+                public void undo() {
+                    adapter.insert(project, position);
+                }
+            };
+            }});
 
         //allow Items to be clicked long to take them to the tasks associated with it
         listView.setLongClickable(true);
@@ -134,6 +140,8 @@ public class FeedActivity extends ActionBarActivity {
 
         final EditText projectTitle = (EditText)layout.findViewById(R.id.project);
         projectTitle.setText(edit_project.getName());
+        final EditText position = (EditText)layout.findViewById(R.id.position);
+        //position.setEnabled(false);
 
         alertDialogBuilder
                 //.setMessage(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)))
@@ -146,12 +154,13 @@ public class FeedActivity extends ActionBarActivity {
                                 if (project_name == null || project_name.equals("")) {
                                     projectTitle.requestFocus();
                                     projectTitle.setHint("ide a task title");
+                                } else {
+                                    projects.remove(edit_project);
+                                    edit_project.setName(project_name);
+                                    projects.add(0, edit_project);
+                                    projectDataSource.updateProject(edit_project);
+                                    adapter.notifyDataSetChanged();
                                 }
-                                projects.remove(edit_project);
-                                edit_project.setName(project_name);
-                                edit_project.setProject_id(project_id);
-                                projects.add(0, edit_project);
-                                adapter.notifyDataSetChanged();
                             }
                         })
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -171,6 +180,7 @@ public class FeedActivity extends ActionBarActivity {
 
         final EditText projectTitle = (EditText)layout.findViewById(R.id.project);
         final EditText projectId = (EditText)layout.findViewById(R.id.position);
+        //projectId.setText(project_id);
 
         // set dialog message
         alertDialogBuilder
@@ -180,16 +190,24 @@ public class FeedActivity extends ActionBarActivity {
                 .setPositiveButton("Ok",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
-                                project_id = Integer.parseInt(projectId.getText().toString());
-                                Project project = new Project(getApplicationContext(), 0,
-                                        projectTitle.getText().toString(),
-                                        project_id, 0, false, new Date(), new Date() );
-                                projects.add(0, project);
-                                adapter.notifyDataSetChanged();
+                                String project_pos = projectId.getText().toString();
+                                String project_title = projectTitle.getText().toString();
+                                int project_current_id = Integer.parseInt(project_pos);
+                                if (project_pos == null || project_pos.equals("") || project_title == null || project_title.equals("")) {
+                                    projectTitle.requestFocus();
+                                    projectTitle.setHint("Please type in a project name");
+                                } else {
+                                    projectDataSource.open();
+                                    Project project = projectDataSource.createProject(projectTitle.getText().toString(), 0, 0, new Date(), new Date());
+                                    projectDataSource.close();
+                                    projects.add(0, project);
+                                    adapter.notifyDataSetChanged();
+                                }
                             }
                         })
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog,int id) {}
+                    public void onClick(DialogInterface dialog, int id) {
+                    }
                 });
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
