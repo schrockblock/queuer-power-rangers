@@ -1,7 +1,35 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".LoginActivity"
-    tools:ignore="MergeRootFrame" />
+<LinearLayout android:orientation="vertical"
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity"
+        tools:ignore="MergeRootFrame" >
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textColor="#87878e" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/et_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#87878e"
+            android:hint="@string/password"
+            />
+
+        <EditText
+            android:id="@+id/btn_login"
+            android:layout_gravity="center"
+            android:text="@string/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.queuerPowerRangers.app.Activities.LoginActivity" >
+
+    <item android:id="@+id/action_edit_project"
+        android:title="@string/edit_project"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+
+        </item>
+
+<item android:id="@+id/action_edit_tasks"
+    android:title="@string/edit_task"
+    android:orderInCategory="100"
+    app:showAsAction="always">
+</item>
+
+</menu>
