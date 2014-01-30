@@ -124,7 +124,7 @@ public class ProjectActivity extends ActionBarActivity {
                                     Log.d("THIS HAPPENED", task_name + "  ");
                                     task.setName(task_name);
                                     task.setProject_id(project_id);
-                                    task.setColor(color);
+                                    //task.setColor(color);
                                     tasks.add(0, task);
                                     adapter.notifyDataSetChanged();
                                 }
