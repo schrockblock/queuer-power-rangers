@@ -20,6 +20,7 @@ import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.Views.EnhancedListView;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * Created by eschrock on 1/17/14.
@@ -29,6 +30,7 @@ public class ProjectActivity extends ActionBarActivity {
     private ArrayList<Task> tasks = new ArrayList<Task>();
     private ProjectAdapter adapter;
     private String project_name;
+    TaskDataSource taskDataSource;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,16 +42,16 @@ public class ProjectActivity extends ActionBarActivity {
         project_name = extras.getString("project_name" );
         project_id = extras.getInt("project_id");}
         else {
-            project_id = 0;
+            project_id = 100;
             project_name = "No Name Given";
         }
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(project_name + " " + project_id);
 
         // Get all the tasks available from the dataSource
-        TaskDataSource taskDataSource = new TaskDataSource(this);
+        taskDataSource = new TaskDataSource(this);
         taskDataSource.open();
-        tasks = taskDataSource.getAllTasks();
+        tasks = taskDataSource.getAllTasks(project_id);
         taskDataSource.close();
 
         //set the adapter to change the listView
@@ -62,7 +64,11 @@ public class ProjectActivity extends ActionBarActivity {
             @Override
             public EnhancedListView.Undoable onDismiss(EnhancedListView listView, final int position) {
                 final Task task = adapter.getItem(position);
-                editTasksArray(position, task);
+                adapter.remove(position);
+                taskDataSource.open();
+                taskDataSource.deleteTask(task);
+                taskDataSource.close();
+                adapter.notifyDataSetChanged();
                 return new EnhancedListView.Undoable() {
                     @Override
                     public void undo() {
@@ -72,6 +78,7 @@ public class ProjectActivity extends ActionBarActivity {
                 };
             }
         });
+
         //set Long Click Listener so that all problems with long clicks are gone
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
@@ -80,6 +87,7 @@ public class ProjectActivity extends ActionBarActivity {
                 return true;
             }
         });
+
         //set listener to check if an item is clicked to be modified
         listView.setLongClickable(true);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -88,6 +96,7 @@ public class ProjectActivity extends ActionBarActivity {
             openEditDialogueBox(adapter.getItem(position));
         }
     });
+
         if (tasks.isEmpty()){ openCreateDialogueBox(); }
 
         listView.enableSwipeToDismiss();
@@ -120,12 +129,13 @@ public class ProjectActivity extends ActionBarActivity {
                                     taskTitle.requestFocus();
                                     taskTitle.setHint("Please provide a task title");
                                 } else {
-                                    Task task = new Task();
+                                    taskDataSource.open();
+                                    Task task = taskDataSource.createTask(task_name, project_id, 0, 0, false);
+                                    taskDataSource.close();
                                     Log.d("THIS HAPPENED", task_name + "  ");
-                                    task.setName(task_name);
-                                    task.setProject_id(project_id);
-                                    //task.setColor(color);
+                                    //task.setColor(color)
                                     tasks.add(0, task);
+
                                     adapter.notifyDataSetChanged();
                                 }
                             }
@@ -136,16 +146,6 @@ public class ProjectActivity extends ActionBarActivity {
                 });
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
-    }
-
-    private void editTasksArray(int position, Task task){
-        adapter.remove(position);
-        TaskDataSource taskDataSource = new TaskDataSource(this);
-        taskDataSource.open();
-        taskDataSource.deleteTask(task);
-        tasks = taskDataSource.getAllTasks();
-        taskDataSource.close();
-        adapter.notifyDataSetChanged();
     }
 
     private void openEditDialogueBox(final Task edit_task){
@@ -169,12 +169,14 @@ public class ProjectActivity extends ActionBarActivity {
                     if (taskTitle == null || task_name.equals("")) {
                         taskTitle.requestFocus();
                         taskTitle.setHint("ide a task title");
-                    }
+                    } else{
                     tasks.remove(edit_task);
                     edit_task.setName(task_name);
                     edit_task.setProject_id(project_id);
-                    tasks.add(0, edit_task);
-                    adapter.notifyDataSetChanged();
+                     tasks.add(0, edit_task);
+                        taskDataSource.updateTask(edit_task);
+                     adapter.notifyDataSetChanged();
+                    }
                 }
             })
             .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -205,13 +207,5 @@ public class ProjectActivity extends ActionBarActivity {
             finish();
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Bundle intentExtras = getIntent().getExtras();
-        int project_id = intentExtras.getInt("project_id");
-
     }
 }

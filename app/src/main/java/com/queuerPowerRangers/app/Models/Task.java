@@ -20,10 +20,21 @@ public class Task {
     private Date created_at;
     private Date updated_at;
 
+    public Context getContext() {
+        return context;
+    }
+
+    public void setContext(Context context) {
+        this.context = context;
+    }
+
+    private Context context;
+
     public Task() {}
 
     public Task(Context context, int id, String name, int project_id, int order, boolean finished, Date created_at, Date updated_at) {
         this.id = id;
+        this.context = context;
         this.name = name;
         this.project_id = project_id;
         this.order = order;

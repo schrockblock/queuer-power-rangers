@@ -16,6 +16,7 @@ import com.google.gson.Gson;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 import com.queuerPowerRangers.app.Models.CreateAccountModel;
 import com.queuerPowerRangers.app.Models.User;
+import com.queuerPowerRangers.app.Packages.Constants;
 
 import org.json.JSONObject;
 
@@ -60,10 +61,17 @@ public class CreateAccountManager {
             @Override
             public void onResponse(JSONObject response){
                 Log.d("Connection", "Success Response: " + response.toString());
+                if(!response.has("errors")){
                 try {
                     createdSuccessfully();
                 } catch (Exception e) {
                     e.printStackTrace();
+                }
+            } else try {
+                    System.out.println(response);
+                    createdUnsuccessfully();
+                } catch (Exception e) {
+                        e.printStackTrace();
                 }
             }
 
@@ -83,7 +91,7 @@ public class CreateAccountManager {
         };
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.POST,
-                "http://queuer-rndapp.rhcloud.com/api/v1/users",
+                Constants.QUEUER_CREATE_ACCOUNT_URL,
                 new JSONObject(json),
                 listener,
                 errorListener);

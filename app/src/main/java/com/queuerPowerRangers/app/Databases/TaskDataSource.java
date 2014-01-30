@@ -40,12 +40,12 @@ public class TaskDataSource {
 
     public Task createTask(String text, int projectId, int serverId, int position, boolean completed) {
         ContentValues values = new ContentValues();
-        values.put(TaskOpenHelper.COLUMN_SERVER_ID, serverId);
+        values.put(TaskOpenHelper.COLUMN_SERVER_ID, 0);
         values.put(TaskOpenHelper.COLUMN_PROJECT_SERVER_ID, projectId);
-        values.put(TaskOpenHelper.COLUMN_POSITION, position);
+        values.put(TaskOpenHelper.COLUMN_POSITION, 0);
         int complete = completed ? 1 : 0;
-        values.put(TaskOpenHelper.COLUMN_COMPLETED, complete);
-        values.put(TaskOpenHelper.COLUMN_TEXT, text);
+        values.put(TaskOpenHelper.COLUMN_COMPLETED, 0);
+        values.put(TaskOpenHelper.COLUMN_TEXT, "zero");
         long insertId = database.insert(TaskOpenHelper.TABLE_TASKS, null,
                 values);
         Cursor cursor = database.query(TaskOpenHelper.TABLE_TASKS,
@@ -66,22 +66,33 @@ public class TaskDataSource {
         values.put(TaskOpenHelper.COLUMN_COMPLETED, complete);
         values.put(TaskOpenHelper.COLUMN_TEXT, task.getName());
 
-        database.update(TaskOpenHelper.TABLE_TASKS, values, TaskOpenHelper.COLUMN_SERVER_ID + " = ?",
+        database.update(TaskOpenHelper.TABLE_TASKS, values, TaskOpenHelper.COLUMN_SERVER_ID + " = " + task.getProject_id(),
                 new String[]{String.valueOf(task.getLocalId())});
     }
 
     public void deleteTask(Task task) {
         String[] whereArgs = new String[1];
         whereArgs[0] = Integer.toString(task.getLocalId());
-        database.delete(TaskOpenHelper.TABLE_TASKS, TaskOpenHelper.COLUMN_ID + " = ?", whereArgs);
+        database.delete(TaskOpenHelper.TABLE_TASKS, TaskOpenHelper.COLUMN_ID + " = " + task.getProject_id(), whereArgs);
     }
 
-    public ArrayList<Task> getAllTasks() {
+    public ArrayList<Task> getAllTasks(int project_id) {
         ArrayList<Task> tasks = new ArrayList<Task>();
 
+        ContentValues values = new ContentValues();
+        values.put(TaskOpenHelper.COLUMN_SERVER_ID, 0);
+        values.put(TaskOpenHelper.COLUMN_PROJECT_SERVER_ID, project_id);
+        values.put(TaskOpenHelper.COLUMN_POSITION, 0);
+        values.put(TaskOpenHelper.COLUMN_COMPLETED, 0);
+        values.put(TaskOpenHelper.COLUMN_TEXT, "zero");
+        long insertId = database.insert(TaskOpenHelper.TABLE_TASKS, null,
+                values);
+
         Cursor cursor = database.query(TaskOpenHelper.TABLE_TASKS,
-                allColumns, null, null,
+                allColumns, TaskOpenHelper.COLUMN_ID + " = " + insertId, null,
                 null, null, null);
+        //public android.database.Cursor query(java.lang.String table, java.lang.String[] columns, java.lang.String selection, java.lang.String[] selectionArgs, java.lang.String groupBy, java.lang.String having, java.lang.String orderBy) { /* compiled code */ }
+
 
         if (cursor.moveToFirst()){
             tasks.add(cursorToTask(cursor));

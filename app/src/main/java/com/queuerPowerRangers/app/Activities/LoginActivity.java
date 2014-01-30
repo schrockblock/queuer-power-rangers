@@ -150,7 +150,10 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                         // current activity
                         dialog.cancel();
                     }
-                });
+                }).setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+            }
+        });
         // create alert dialog
         AlertDialog alertDialog = alertDialogBuilder.create();
 

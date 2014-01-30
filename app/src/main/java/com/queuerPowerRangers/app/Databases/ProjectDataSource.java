@@ -86,6 +86,7 @@ public class ProjectDataSource {
             long id = project.getLocalId();
             database.delete(ProjectOpenHelper.TABLE_PROJECTS, ProjectOpenHelper.COLUMN_ID +
                     " = " + id, null);
+            projects.remove(project);
             cursor.moveToNext();
         }
         // Make sure to close the cursor
