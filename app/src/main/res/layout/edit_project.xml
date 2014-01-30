@@ -4,21 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
     <EditText
-        android:id="@+id/task"
+        android:id="@+id/project"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:inputType="textCapSentences"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:ems="10"
-        android:hint="@string/task" >
+        android:hint="@string/project" >
         <requestFocus />
     </EditText>
     <EditText
-        android:id="@+id/position"
+        android:id="@+id/project_pos"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:layout_below="@+id/task"
+        android:layout_below="@+id/project"
         android:text="@string/zero"/>
 </RelativeLayout>

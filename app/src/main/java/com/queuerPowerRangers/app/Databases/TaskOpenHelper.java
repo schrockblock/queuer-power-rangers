@@ -12,6 +12,7 @@ public class TaskOpenHelper extends SQLiteOpenHelper {
 
     public static final String TABLE_TASKS = "tasks";
     public static final String COLUMN_ID = "_id";
+    public static final String COLOR = "color";
     public static final String COLUMN_SERVER_ID = "id";
     public static final String COLUMN_PROJECT_SERVER_ID = "project_id";
     public static final String COLUMN_TEXT = "text";
@@ -34,6 +35,7 @@ public class TaskOpenHelper extends SQLiteOpenHelper {
             + COLUMN_CREATED + " integer, "
             + COLUMN_UPDATED + " integer, "
             + COLUMN_COMPLETED + " integer"
+            + COLOR + " integer"
             + ");";
 
     public TaskOpenHelper(Context context) {

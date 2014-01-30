@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import com.queuerPowerRangers.app.Interfaces.RearrangementListener;
@@ -14,12 +15,14 @@ import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.R;
 
 
+import org.jetbrains.annotations.Nullable;
+
 import java.util.ArrayList;
 
 /**
  * Created by Rotios on 1/17/14.
  */
-public class ProjectAdapter extends BaseAdapter implements RearrangementListener {
+public class ProjectAdapter extends BaseAdapter implements RearrangementListener, ListAdapter {
     private Context context;
     private ArrayList<Task> tasks = new ArrayList<Task>();
 
@@ -29,23 +32,13 @@ public class ProjectAdapter extends BaseAdapter implements RearrangementListener
     }
 
     @Override
-    public boolean areAllItemsEnabled() {
+       public boolean areAllItemsEnabled() {
         return true;
     }
 
     @Override
     public boolean isEnabled(int i) {
-        return false;
-    }
-
-    @Override
-    public void registerDataSetObserver(DataSetObserver dataSetObserver) {
-
-    }
-
-    @Override
-    public void unregisterDataSetObserver(DataSetObserver dataSetObserver) {
-
+        return true;
     }
 
     @Override
@@ -68,6 +61,12 @@ public class ProjectAdapter extends BaseAdapter implements RearrangementListener
         return true;
     }
 
+    @Override
+    public void notifyDataSetChanged() {
+        super.notifyDataSetChanged();
+    }
+
+    @Nullable
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
         if(convertView == null){
@@ -107,14 +106,10 @@ public class ProjectAdapter extends BaseAdapter implements RearrangementListener
 
     @Override
     public void swapElements(int indexOne, int indexTwo) {
-        Task temp1 = getItem(indexOne);
-        Task temp2 = getItem(indexTwo);
-
+        Task temp = getItem(indexOne);
         tasks.remove(indexOne);
-        tasks.add(indexOne, temp2);
-
-        tasks.remove(indexTwo);
-        tasks.add(indexTwo, temp1);
+        tasks.add(indexOne, getItem(indexTwo));
+        tasks.add(indexTwo, temp);
     }
 
     @Override

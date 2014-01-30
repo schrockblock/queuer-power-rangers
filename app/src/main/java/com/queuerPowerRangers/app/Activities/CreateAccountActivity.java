@@ -36,7 +36,7 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
         username_text = (EditText) findViewById(R.id.et_username);
         password_text = (EditText) findViewById(R.id.et_password);
 
-        ca_manager = new CreateAccountManager();
+        ca_manager = CreateAccountManager.getInstance();
         ca_manager.setCallback(CreateAccountActivity.this, CreateAccountActivity.this);
         final TextView goBack = (TextView)findViewById(R.id.go_back);
         goBack.setOnClickListener(new View.OnClickListener() {
@@ -53,13 +53,17 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
     public void startedRequest() {
         progressBar.setVisibility(View.VISIBLE);
         account_successful.setVisibility(View.GONE);
-        return;
     }
 
     public void finishedRequest(boolean successful) {
         progressBar.setVisibility(View.GONE);
         if(successful) {
             account_successful.setVisibility(View.VISIBLE);
+            Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+            i.putExtra("login_name", username_text.getText().toString());
+            i.putExtra("login_password", password_text.getText().toString());
+            startActivity(i);
+            finish();
         } else {
            findViewById(R.id.account_unsuccessful).setVisibility(View.VISIBLE);
 
