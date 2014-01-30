@@ -30,15 +30,19 @@ import com.queuerPowerRangers.app.Managers.LoginManager;
 
 public class LoginActivity extends ActionBarActivity implements LoginManagerCallback {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_login);
+        //Import all of the buttons and fields for user functionality
         Button login = (Button)findViewById(R.id.btn_login);
-        final EditText user = (EditText)findViewById(R.id.et_username);
-        final EditText pass = (EditText)findViewById(R.id.et_password);
-        final CheckBox remember = (CheckBox)findViewById(R.id.remember);
-        final TextView create = (TextView)findViewById(R.id.create_account);
+         final EditText user = (EditText)findViewById(R.id.et_username);
+         final EditText pass = (EditText)findViewById(R.id.et_password);
+         final CheckBox remember = (CheckBox)findViewById(R.id.remember);
+         final TextView create = (TextView)findViewById(R.id.create_account);
+        //set on click listener to transfer someone to create an account when link is clicked
         create.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,23 +52,25 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                 onStop();
             }
         });
+        //set on click listener to login in a persn when needed
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //no login if the two fields are empty
                 if(user.getText().toString().equals("") || pass.getText().toString().equals("")){showAlertDialogueBox();}
                 else{
+                    //if they checked remember, save there details in sharedpreferences
                  if (remember.isChecked()){
-                    //save username and password
-                    SharedPreferences preferences = getSharedPreferences("login", Activity.MODE_PRIVATE);
-                    SharedPreferences.Editor editor = preferences.edit();
-                    editor.putBoolean("remember", true);
-                    editor.putString("username", user.getText().toString());
-                    editor.putString("password", pass.getText().toString());
-                    editor.commit();
+                    //SAVE USERNAME AND PASSWORD
+                     SharedPreferences preferences = getSharedPreferences("login", Activity.MODE_PRIVATE);
+                     SharedPreferences.Editor editor = preferences.edit();
+                     editor.putBoolean("remember", true);
+                     editor.putString("username", user.getText().toString());
+                     editor.putString("password", pass.getText().toString());
+                     editor.commit();
                 }
-                  Intent i = new Intent(getApplicationContext(), FeedActivity.class);
-                    startActivity(i);
-                    onStop();
+
+                    //log them in through the login manager
                 LoginManager manager = LoginManager.getInstance();
                 manager.setCallback(LoginActivity.this, LoginActivity.this);
                 try {
@@ -76,8 +82,10 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
             }
 
         });
+        //get their details from shared preferences
         SharedPreferences preferences = getSharedPreferences("login", MODE_PRIVATE);
-        if (preferences.getBoolean("remember", false)){
+        boolean remembered = preferences.getBoolean("remember", remember.isChecked());
+        if (remembered){
             user.setText(preferences.getString("username", ""));
             pass.setText(preferences.getString("password", ""));
             remember.setChecked(true);
@@ -97,7 +105,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -114,7 +122,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
 
         if(successful){
             Log.d("THIS HAPPENED", "LOGIN WAS SUCCESSFUL");
-            Intent i = new Intent(getApplicationContext(), com.queuerPowerRangers.app.Activities.FeedActivity.class);
+            Intent i = new Intent(getApplicationContext(), FeedActivity.class);
             startActivity(i);
             finish();
     }else{
@@ -150,19 +158,4 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         alertDialog.show();
     }
 
-    private boolean haveNetworkConnection() {
-        boolean haveConnectedWifi = false;
-        boolean haveConnectedMobile = false;
-
-        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo[] netInfo = cm.getAllNetworkInfo();
-        for (NetworkInfo ni : netInfo) {
-            if (ni.getTypeName().equalsIgnoreCase("WIFI"))
-                if (ni.isConnected())
-                    haveConnectedWifi = true;
-            if (ni.getTypeName().equalsIgnoreCase("MOBILE"))
-                if (ni.isConnected())
-                    haveConnectedMobile = true;
-        }
-        return haveConnectedWifi || haveConnectedMobile;
     }

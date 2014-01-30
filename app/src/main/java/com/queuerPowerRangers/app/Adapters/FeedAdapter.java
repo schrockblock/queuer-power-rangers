@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import com.queuerPowerRangers.app.Interfaces.RearrangementListener;
@@ -13,12 +14,14 @@ import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Models.Project;
 
 
+import org.jetbrains.annotations.Nullable;
+
 import java.util.ArrayList;
 
 /**
  * Created by Rotios on 1/15/14.
  */
-public class FeedAdapter extends BaseAdapter implements RearrangementListener{
+public class FeedAdapter extends BaseAdapter implements RearrangementListener, ListAdapter{
     private Context context;
     private ArrayList<Project> projects = new ArrayList<Project>();
 
@@ -35,17 +38,7 @@ public class FeedAdapter extends BaseAdapter implements RearrangementListener{
 
     @Override
     public boolean isEnabled(int i) {
-        return false;
-    }
-
-    @Override
-    public void registerDataSetObserver(DataSetObserver dataSetObserver) {
-
-    }
-
-    @Override
-    public void unregisterDataSetObserver(DataSetObserver dataSetObserver) {
-
+        return true;
     }
 
     @Override
@@ -68,14 +61,18 @@ public class FeedAdapter extends BaseAdapter implements RearrangementListener{
         return true;
     }
 
+    @Override
+    public void notifyDataSetChanged() {
+        super.notifyDataSetChanged();
+    }
 
+    @Nullable
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
         if(convertView == null){
             convertView = LayoutInflater.from(context).inflate(R.layout.list_project, null);
         }
         ((TextView)convertView.findViewById(R.id.tv_title)).setText(getItem(position).getName());
-        convertView.findViewById(R.id.linear_project).setBackgroundColor(getItem(position).getProject_color());
         return convertView;
     }
 
@@ -102,12 +99,12 @@ public class FeedAdapter extends BaseAdapter implements RearrangementListener{
         return projects.isEmpty();
     }
 
-
+    @Override
     public void onStartedRearranging() {
 
     }
 
-
+    @Override
     public void swapElements(int indexOne, int indexTwo) {
         Project temp = getItem(indexOne);
         projects.remove(indexOne);
@@ -115,7 +112,7 @@ public class FeedAdapter extends BaseAdapter implements RearrangementListener{
         projects.add(indexTwo, temp);
     }
 
-
+    @Override
     public void onFinishedRearranging() {
 
     }

@@ -28,6 +28,15 @@ public class CreateAccountManager {
     Context context;
     RequestQueue requestQueue;
 
+   //Create Account Manager singleton
+    private static CreateAccountManager instance = null;
+    protected CreateAccountManager() {}
+
+    public static CreateAccountManager getInstance(){
+        if(instance == null){
+            instance = new CreateAccountManager();
+        } return instance;
+    }
 
     public void setCallback(Context context, LoginManagerCallback callback) {
         this.context = context;
@@ -72,30 +81,24 @@ public class CreateAccountManager {
                 }
             }
         };
-
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.POST,
                 "http://queuer-rndapp.rhcloud.com/api/v1/users",
                 new JSONObject(json),
                 listener,
                 errorListener);
-
-
         requestQueue.add(request);
-
     }
 
     private void createdSuccessfully() throws Exception{
         if( callback == null) throw new Exception( "Must supply a LoginManagerCallback");
         callback.finishedRequest(true);
-
         System.out.println( "Success");
     }
 
     private void createdUnsuccessfully() throws Exception{
         if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
         callback.finishedRequest(false);
-
         System.out.println("sad");
     }
 }

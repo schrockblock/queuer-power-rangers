@@ -6,7 +6,10 @@ import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.ContextMenu;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -21,6 +24,9 @@ import com.queuerPowerRangers.app.Adapters.FeedAdapter;
 import com.queuerPowerRangers.app.Activities.ProjectActivity;
 
 import java.util.ArrayList;
+import java.util.Date;
+
+import static android.widget.AdapterView.*;
 
 /**
  * Created by Rotios on 1/15/14.
@@ -35,29 +41,24 @@ public class FeedActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feed);
 
-        project_id = getIntent().getIntExtra("project_id",-1);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Project List");
-
-        ArrayList<Project> projects = new ArrayList<Project>(20);
-        for (int i = 0; i < 20; i++){
-            projects.add(new Project(this.getApplicationContext(),i,"test" + i,project_id,i,true, new java.util.Date(),new java.util.Date()));
-        }
-        /*
         ProjectDataSource projectDataSource = new ProjectDataSource(this);
-
         try {
             projectDataSource.open();
         } catch (Exception e) {
             e.printStackTrace();
         }
+        projectDataSource.deleteAllProjects();
         projects = projectDataSource.getAllProjects();
         projectDataSource.close();
-    */
         adapter = new FeedAdapter(this, projects);
         EnhancedListView listView = (EnhancedListView)findViewById(R.id.activity_feed);
         listView.setAdapter(adapter);
+
+
+        //Set a dismissCallback to swipe things off, but allow user to bring it back if necessary
         listView.setDismissCallback(new EnhancedListView.OnDismissCallback() {
             @Override
             public EnhancedListView.Undoable onDismiss(EnhancedListView listView, final int position) {
@@ -71,19 +72,32 @@ public class FeedActivity extends ActionBarActivity {
                 };
             }
         });
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+        //allow Items to be clicked long to take them to the tasks associated with it
+        listView.setLongClickable(true);
+        listView.setOnItemLongClickListener(new OnItemLongClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                System.out.println("clicked");
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(getApplicationContext(), ProjectActivity.class);
-                intent.putExtra("project_id", (int)adapter.getItemId(position));
+                intent.putExtra("project_name", adapter.getItem(i).getName());
+                intent.putExtra("project_id", project_id);
                 startActivity(intent);
                 onPause();
+                return true;
             }
         });
 
+        //set listener to check if an item is clicked to be modified
+        listView.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                openEditDialogueBox(adapter.getItem(position));
+            }
+        });
+
+        if (projects.isEmpty()){ openCreateDialogueBox(); }
         listView.enableSwipeToDismiss();
-        listView.enableRearranging();
+       // listView.enableRearranging();
     }
 
     @Override
@@ -101,37 +115,84 @@ public class FeedActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_add_project) {
-            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-            // set title
-            alertDialogBuilder.setTitle("New Project");
-
-            View layout = getLayoutInflater().inflate(R.layout.new_project, null);
-
-            final EditText projectTitle = (EditText)layout.findViewById(R.id.project);
-
-            // set dialog message
-            alertDialogBuilder
-                    //.setMessage(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)))
-                    .setCancelable(true)
-                    .setView(layout)
-                    .setPositiveButton("Ok",
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    Project project = new Project();
-                                    project.setName(projectTitle.getText().toString());
-                                    project.setProject_id(project_id);
-                                    projects.add(0, project);
-                                    adapter.notifyDataSetChanged();
-                                }
-                            })
-                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog,int id) {}
-                    });
-            AlertDialog alertDialog = alertDialogBuilder.create();
-            alertDialog.show();
-            return true;
+         openCreateDialogueBox();
+        }
+        else if (id == R.id.action_log_out){
+            Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+            startActivity(i);
+            finish();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void openEditDialogueBox(final Project edit_project){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // set title
+        alertDialogBuilder.setTitle("Edit Project");
+
+        View layout = getLayoutInflater().inflate(R.layout.edit_project, null);
+
+        final EditText projectTitle = (EditText)layout.findViewById(R.id.project);
+        projectTitle.setText(edit_project.getName());
+
+        alertDialogBuilder
+                //.setMessage(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)))
+                .setCancelable(true)
+                .setView(layout)
+                .setPositiveButton("Ok",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                String project_name = projectTitle.getText().toString();
+                                if (project_name == null || project_name.equals("")) {
+                                    projectTitle.requestFocus();
+                                    projectTitle.setHint("ide a task title");
+                                }
+                                projects.remove(edit_project);
+                                edit_project.setName(project_name);
+                                edit_project.setProject_id(project_id);
+                                projects.add(0, edit_project);
+                                adapter.notifyDataSetChanged();
+                            }
+                        })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                    }
+                });
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+    }
+
+    private void openCreateDialogueBox(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // set title
+        alertDialogBuilder.setTitle("New Project");
+
+        View layout = getLayoutInflater().inflate(R.layout.new_project, null);
+
+        final EditText projectTitle = (EditText)layout.findViewById(R.id.project);
+        final EditText projectId = (EditText)layout.findViewById(R.id.position);
+
+        // set dialog message
+        alertDialogBuilder
+                //.setMessage(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)))
+                .setCancelable(true)
+                .setView(layout)
+                .setPositiveButton("Ok",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                project_id = Integer.parseInt(projectId.getText().toString());
+                                Project project = new Project(getApplicationContext(), 0,
+                                        projectTitle.getText().toString(),
+                                        project_id, 0, false, new Date(), new Date() );
+                                projects.add(0, project);
+                                adapter.notifyDataSetChanged();
+                            }
+                        })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog,int id) {}
+                });
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
     }
 }
 

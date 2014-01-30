@@ -75,6 +75,24 @@ public class ProjectDataSource {
                 + " = " + id, null);
     }
 
+    public ArrayList<Project> deleteAllProjects(){
+        ArrayList<Project> projects = new ArrayList<Project>();
+
+        Cursor cursor = database.query(ProjectOpenHelper.TABLE_PROJECTS,
+                allColumns, null, null, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            Project project = cursorToProject(cursor);
+            long id = project.getLocalId();
+            database.delete(ProjectOpenHelper.TABLE_PROJECTS, ProjectOpenHelper.COLUMN_ID +
+                    " = " + id, null);
+            cursor.moveToNext();
+        }
+        // Make sure to close the cursor
+        cursor.close();
+        return projects;
+    }
+
     public ArrayList<Project> getAllProjects() {
         ArrayList<Project> projects = new ArrayList<Project>();
 

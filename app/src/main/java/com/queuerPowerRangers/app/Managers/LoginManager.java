@@ -47,8 +47,8 @@ import android.widget.TextView;
 import com.queuerPowerRangers.app.Models.SignInModel;
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
-import com.queuerPowerRangers.app.activities.LoginActivity;
-import com.queuerPowerRangers.app.managers.LoginManager;
+import com.queuerPowerRangers.app.Activities.LoginActivity;
+import com.queuerPowerRangers.app.Managers.LoginManager;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -67,39 +67,78 @@ public class LoginManager{
     private QueuerApplication application = new QueuerApplication();
     private RequestQueue requestQueue;
 
+    //Login Manager Singleton
     private static LoginManager instance = null;
     protected LoginManager(){}
+
     public static LoginManager getInstance(){
         if(instance == null){
             instance = new LoginManager();
         } return instance;
     }
 
+    //Set the callback for login
     public void setCallback(Context context, LoginManagerCallback callback) {
         this.context = context;
         this.callback = callback;
     }
 
+    //log the user in and let the activity know it is happening
     public void login(String username, String password) throws Exception{
         if (callback == null) throw new Exception("Must supply a LoginManagerCallback");
         callback.startedRequest();
         authenticate(username, password);
     }
 
+    //Authenticate the credentials of the user
     private void authenticate(String username, String password){
         application.setRequestQueue(Volley.newRequestQueue(context));
-        SignInModel model = new SignInModel(username, password);
         JSONObject signInJson = null;
-        String jsonString = new Gson().toJson(new User(username, password));
-        try {
+        String jsonString = new Gson().toJson(new SignInModel(username, password));
+        try{
             Log.d("THIS HAPPENED", "This happened " + jsonString );
             signInJson = new JSONObject(jsonString);
         } catch (JSONException e) {
             e.printStackTrace();
         }
+        Response.Listener<JSONObject> listener = new Response.Listener<JSONObject>(){
+            @Override
+            public void onResponse(JSONObject response){
+                Log.d("Connection", "Success Response: " + response.toString());
+                try {
+                    authenticatedSuccessfully();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
 
+        };
+        Response.ErrorListener errorListener = new Response.ErrorListener(){
+            @Override
+            public void onErrorResponse( VolleyError error){
+                if (error.networkResponse != null){
+                    Log.d("Connection", "Error Response code: " + error.networkResponse.statusCode);
+                    try {
+                        authenticatedUnsuccessfully();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        };
+
+        JsonObjectRequest request = new JsonObjectRequest(
+                Request.Method.POST,
+                "http://queuer-rndapp.rhcloud.com/api/v1/users",
+                signInJson,
+                listener,
+                errorListener);
+
+
+        application.getRequestQueue().add(request);
     }
 
+    //let the activity know if authentication was successful or not
     private void authenticatedSuccessfully() throws Exception {
         if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
         callback.finishedRequest(true);
@@ -110,34 +149,5 @@ public class LoginManager{
         callback.finishedRequest(false);
     }
 
-        Response.ErrorListener createErrorListener(){
-            return new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                if (error.networkResponse != null) {
-                    Log.d("THIS HAPPENED", "Error Response code: " + error.networkResponse.statusCode);
-                    try {
-                        authenticatedUnsuccessfully();
-                    } catch (Exception e) {
-                        Log.d("THIS HAPPENED", "Error authenticating");
-                        e.printStackTrace();
-                    }
-                }
-            }};
-     }
-    private Response.Listener<JSONObject> createListener(){
-        return new Response.Listener<JSONObject>() {
-            @Override
-            public void onResponse(JSONObject JSONObject) {
-                try {
-                    Log.d("THIS HAPPENED", "Success Response: " + JSONObject.toString());
-                    authenticatedSuccessfully();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                    Log.d("THIS HAPPENED", "Error Authenticating");
-                }
-            }
-        };
-}
 
 }

@@ -25,6 +25,9 @@
     <string name="account_unsuccessful">Create Account Unsuccessfully</string>
     <string name="action_logout">Log Out</string>
     <string name="task">Task</string>
+    <string name="project">Project</string>
     <string name="zero">0</string>
     <string name="finish">Exit</string>
+    <string name="edit_task">Edit Tasks</string>
+    <string name="edit_project">Edit Project</string>
 </resources>
