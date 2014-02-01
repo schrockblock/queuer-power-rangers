@@ -1,7 +1,6 @@
 package com.queuerPowerRangers.app.Adapters;
 
 import android.content.Context;
-import android.database.DataSetObserver;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +9,6 @@ import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import com.queuerPowerRangers.app.Interfaces.RearrangementListener;
-import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.R;
 

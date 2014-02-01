@@ -55,43 +55,12 @@ public class ProjectDataSource {
         return newProject;
     }
 
-    public void updateProject(Project project){
-        ContentValues values = new ContentValues();
-        values.put(ProjectOpenHelper.COLUMN_SERVER_ID, project.getId());
-        values.put(ProjectOpenHelper.COLUMN_COLOR, project.getProject_color());
-        values.put(ProjectOpenHelper.COLUMN_TITLE, project.getName());
-
-        database.update(ProjectOpenHelper.TABLE_PROJECTS,
-                values,
-                ProjectOpenHelper.COLUMN_ID + " = ?",
-                new String[]{String.valueOf(project.getLocalId())});
-    }
-
     //DOES NOT DELETE TASKS ASSOCIATED WITH PROJECT!!
     public void deleteProject(Project project) {
         long id = project.getLocalId();
         System.out.println("Project deleted with id: " + id);
         database.delete(ProjectOpenHelper.TABLE_PROJECTS, ProjectOpenHelper.COLUMN_ID
                 + " = " + id, null);
-    }
-
-    public ArrayList<Project> deleteAllProjects(){
-        ArrayList<Project> projects = new ArrayList<Project>();
-
-        Cursor cursor = database.query(ProjectOpenHelper.TABLE_PROJECTS,
-                allColumns, null, null, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            Project project = cursorToProject(cursor);
-            long id = project.getLocalId();
-            database.delete(ProjectOpenHelper.TABLE_PROJECTS, ProjectOpenHelper.COLUMN_ID +
-                    " = " + id, null);
-            projects.remove(project);
-            cursor.moveToNext();
-        }
-        // Make sure to close the cursor
-        cursor.close();
-        return projects;
     }
 
     public ArrayList<Project> getAllProjects() {

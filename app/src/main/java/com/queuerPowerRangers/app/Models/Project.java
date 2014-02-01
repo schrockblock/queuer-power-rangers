@@ -4,8 +4,6 @@ import android.content.Context;
 
 import com.queuerPowerRangers.app.Databases.ProjectDataSource;
 
-import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -14,19 +12,22 @@ import java.util.Date;
 public class Project {
     private int localId;
     private int id;
-    private String name;
     private int project_id;
     private int order;
+    private int project_color;
+
     private boolean finished;
+
+    private String name;
+
     private Date created_at;
     private Date updated_at;
-    private int project_color;
 
     public Project(Context context, int id, String name){
         this.id = id;
-        this.name = name;
         this.project_id = id;
         this.order = id;
+        this.name = name;
         this.created_at = new Date();
         this.updated_at = new Date();
 
@@ -40,13 +41,12 @@ public class Project {
 
     public Project(Context context, int id, String name, int project_id, int order, boolean finished, Date created_at, Date updated_at) {
         this.id = id;
-        this.name = name;
         this.project_id = project_id;
         this.order = order;
         this.finished = finished;
+        this.name = name;
         this.created_at = created_at;
         this.updated_at = updated_at;
-        this.project_color = project_color;
 
         ProjectDataSource dataSource = new ProjectDataSource(context);
         dataSource.open();

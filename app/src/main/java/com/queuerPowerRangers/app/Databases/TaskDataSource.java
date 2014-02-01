@@ -43,7 +43,6 @@ public class TaskDataSource {
         values.put(TaskOpenHelper.COLUMN_SERVER_ID, 0);
         values.put(TaskOpenHelper.COLUMN_PROJECT_SERVER_ID, projectId);
         values.put(TaskOpenHelper.COLUMN_POSITION, 0);
-        int complete = completed ? 1 : 0;
         values.put(TaskOpenHelper.COLUMN_COMPLETED, 0);
         values.put(TaskOpenHelper.COLUMN_TEXT, "zero");
         long insertId = database.insert(TaskOpenHelper.TABLE_TASKS, null,
@@ -70,6 +69,7 @@ public class TaskDataSource {
                 new String[]{String.valueOf(task.getLocalId())});
     }
 
+
     public void deleteTask(Task task) {
         String[] whereArgs = new String[1];
         whereArgs[0] = Integer.toString(task.getLocalId());
@@ -91,8 +91,6 @@ public class TaskDataSource {
         Cursor cursor = database.query(TaskOpenHelper.TABLE_TASKS,
                 allColumns, TaskOpenHelper.COLUMN_ID + " = " + insertId, null,
                 null, null, null);
-        //public android.database.Cursor query(java.lang.String table, java.lang.String[] columns, java.lang.String selection, java.lang.String[] selectionArgs, java.lang.String groupBy, java.lang.String having, java.lang.String orderBy) { /* compiled code */ }
-
 
         if (cursor.moveToFirst()){
             tasks.add(cursorToTask(cursor));

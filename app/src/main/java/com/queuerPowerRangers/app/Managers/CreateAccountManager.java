@@ -5,13 +5,7 @@ import android.util.Log;
 
 import com.android.volley.*;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.google.gson.Gson;
-import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
-import com.queuerPowerRangers.app.Models.CreateAccountModel;
-import com.queuerPowerRangers.app.Models.User;
 import com.google.gson.Gson;
 import com.queuerPowerRangers.app.Interfaces.LoginManagerCallback;
 import com.queuerPowerRangers.app.Models.CreateAccountModel;
@@ -101,12 +95,10 @@ public class CreateAccountManager {
     private void createdSuccessfully() throws Exception{
         if( callback == null) throw new Exception( "Must supply a LoginManagerCallback");
         callback.finishedRequest(true);
-        System.out.println( "Success");
     }
 
     private void createdUnsuccessfully() throws Exception{
         if(callback == null) throw new Exception("Must supply a LoginManagerCallback");
         callback.finishedRequest(false);
-        System.out.println("sad");
     }
 }

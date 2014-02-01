@@ -6,23 +6,17 @@ import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.ContextMenu;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.queuerPowerRangers.app.Databases.ProjectDataSource;
-import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.R;
 import com.queuerPowerRangers.app.Views.EnhancedListView;
 import com.queuerPowerRangers.app.Models.Project;
 import com.queuerPowerRangers.app.Adapters.FeedAdapter;
-import com.queuerPowerRangers.app.Activities.ProjectActivity;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -47,11 +41,13 @@ public class FeedActivity extends ActionBarActivity {
         actionBar.setTitle("Project List");
 
         projectDataSource = new ProjectDataSource(this);
+
         try {
             projectDataSource.open();
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         projects = projectDataSource.getAllProjects();
         projectDataSource.close();
 
@@ -59,7 +55,6 @@ public class FeedActivity extends ActionBarActivity {
         adapter = new FeedAdapter(this, projects);
         EnhancedListView listView = (EnhancedListView)findViewById(R.id.activity_feed);
         listView.setAdapter(adapter);
-
 
         //Set a dismissCallback to swipe things off, but allow user to bring it back if necessary
         listView.setDismissCallback(new EnhancedListView.OnDismissCallback() {
@@ -103,12 +98,10 @@ public class FeedActivity extends ActionBarActivity {
 
         if (projects.isEmpty()){ openCreateDialogueBox(); }
         listView.enableSwipeToDismiss();
-       // listView.enableRearranging();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.feed, menu);
         return true;
@@ -120,6 +113,7 @@ public class FeedActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+
         if (id == R.id.action_add_project) {
          openCreateDialogueBox();
         }
@@ -128,6 +122,7 @@ public class FeedActivity extends ActionBarActivity {
             startActivity(i);
             finish();
         }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -140,11 +135,8 @@ public class FeedActivity extends ActionBarActivity {
 
         final EditText projectTitle = (EditText)layout.findViewById(R.id.project);
         projectTitle.setText(edit_project.getName());
-        final EditText position = (EditText)layout.findViewById(R.id.position);
-        //position.setEnabled(false);
 
         alertDialogBuilder
-                //.setMessage(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)))
                 .setCancelable(true)
                 .setView(layout)
                 .setPositiveButton("Ok",
@@ -158,7 +150,6 @@ public class FeedActivity extends ActionBarActivity {
                                     projects.remove(edit_project);
                                     edit_project.setName(project_name);
                                     projects.add(0, edit_project);
-                                    //projectDataSource.updateProject(edit_project);
                                     adapter.notifyDataSetChanged();
                                 }
                             }
@@ -180,11 +171,9 @@ public class FeedActivity extends ActionBarActivity {
 
         final EditText projectTitle = (EditText)layout.findViewById(R.id.project);
         final EditText projectId = (EditText)layout.findViewById(R.id.position);
-        //projectId.setText(project_id);
 
         // set dialog message
         alertDialogBuilder
-                //.setMessage(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)))
                 .setCancelable(true)
                 .setView(layout)
                 .setPositiveButton("Ok",
@@ -192,7 +181,6 @@ public class FeedActivity extends ActionBarActivity {
                             public void onClick(DialogInterface dialog, int id) {
                                 String project_pos = projectId.getText().toString();
                                 String project_title = projectTitle.getText().toString();
-                                int project_current_id = Integer.parseInt(project_pos);
                                 if (project_pos == null || project_pos.equals("") || project_title == null || project_title.equals("")) {
                                     projectTitle.requestFocus();
                                     projectTitle.setHint("Please type in a project name");

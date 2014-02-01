@@ -59,9 +59,10 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
 
     public void finishedRequest(boolean successful) {
         progressBar.setVisibility(View.GONE);
+
         if(successful) {
             account_successful.setVisibility(View.VISIBLE);
-           CheckBox remember = (CheckBox)findViewById(R.id.remember_new);
+            CheckBox remember = (CheckBox)findViewById(R.id.remember_new);
             System.out.println("successful creation");
             if(remember.isChecked()){
             SharedPreferences preferences = getSharedPreferences("login", Activity.MODE_PRIVATE);
@@ -87,6 +88,7 @@ public class CreateAccountActivity extends ActionBarActivity implements LoginMan
         String username = username_text.getText().toString();
         // take password
         String password = password_text.getText().toString();
+
         if(username.equals("") || password.equals("")){
             showAlertDialogueBox();
         } else{

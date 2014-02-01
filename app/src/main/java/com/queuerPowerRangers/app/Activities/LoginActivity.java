@@ -1,18 +1,10 @@
 package com.queuerPowerRangers.app.Activities;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.os.Build;
-import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.os.Bundle;
@@ -36,12 +28,14 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_login);
+
         //Import all of the buttons and fields for user functionality
         Button login = (Button)findViewById(R.id.btn_login);
          final EditText user = (EditText)findViewById(R.id.et_username);
          final EditText pass = (EditText)findViewById(R.id.et_password);
          final CheckBox remember = (CheckBox)findViewById(R.id.remember);
          final TextView create = (TextView)findViewById(R.id.create_account);
+
         //set on click listener to transfer someone to create an account when link is clicked
         create.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,7 +46,8 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                 finish();
             }
         });
-        //set on click listener to login in a persn when needed
+
+        //set on click listener to login in a person when needed
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,7 +55,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                 if(user.getText().toString().equals("") || pass.getText().toString().equals("")){showAlertDialogueBox();}
                 else{
                     //if they checked remember, save there details in sharedpreferences
-                 if (remember.isChecked()){
+                if (remember.isChecked()){
                     //SAVE USERNAME AND PASSWORD
                      SharedPreferences preferences = getSharedPreferences("login", Activity.MODE_PRIVATE);
                      SharedPreferences.Editor editor = preferences.edit();
@@ -70,7 +65,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
                      editor.commit();
                 }
 
-                    //log them in through the login manager
+                //log them in through the login manager
                 LoginManager manager = LoginManager.getInstance();
                 manager.setCallback(LoginActivity.this, LoginActivity.this);
                 try {
@@ -104,7 +99,6 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
         return super.onOptionsItemSelected(item);
     }
@@ -125,7 +119,7 @@ public class LoginActivity extends ActionBarActivity implements LoginManagerCall
             Intent i = new Intent(getApplicationContext(), FeedActivity.class);
             startActivity(i);
             finish();
-    }else{
+        }else{
             Log.d("THIS HAPPENED", "LOGIN WAS UNSUCCESSFUL");
             findViewById(R.id.login_unsuccessful).setVisibility(View.VISIBLE);
             findViewById(R.id.create_account).setVisibility(View.VISIBLE);

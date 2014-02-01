@@ -12,8 +12,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
-import android.widget.ListView;
-import android.widget.TextView;
 
 import com.queuerPowerRangers.app.Databases.TaskDataSource;
 import com.queuerPowerRangers.app.R;
@@ -21,10 +19,7 @@ import com.queuerPowerRangers.app.Adapters.ProjectAdapter;
 import com.queuerPowerRangers.app.Models.Task;
 import com.queuerPowerRangers.app.Views.EnhancedListView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
-import java.util.Date;
 
 /**
  * Created by eschrock on 1/17/14.
@@ -104,8 +99,6 @@ public class ProjectActivity extends ActionBarActivity {
         if (tasks.isEmpty()){ openCreateDialogueBox(); }
 
         listView.enableSwipeToDismiss();
-        //disable enable rearranging to avoid problems (no code for it yet anyway)
-        //listView.enableRearranging();
     }
 
     //Open a dialogue box to create a new task
@@ -116,7 +109,6 @@ public class ProjectActivity extends ActionBarActivity {
         //grab the components
         View layout = getLayoutInflater().inflate(R.layout.new_task, null);
         final EditText taskTitle = (EditText)layout.findViewById(R.id.task);
-        final EditText colorTask  = (EditText)layout.findViewById(R.id.position);
 
         alertDialogBuilder
                 .setCancelable(true)
@@ -125,7 +117,6 @@ public class ProjectActivity extends ActionBarActivity {
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 String task_name = taskTitle.getText().toString();
-                                int color = Integer.parseInt(colorTask.getText().toString());
 
                                 //do not allow the user to create a new task without first actually
                                 // writing something in the name section
@@ -137,7 +128,6 @@ public class ProjectActivity extends ActionBarActivity {
                                     Task task = taskDataSource.createTask(task_name, project_id, 0, 0, false);
                                     taskDataSource.close();
                                     Log.d("THIS HAPPENED", task_name + "  ");
-                                    //task.setColor(color)
                                     tasks.add(0, task);
                                     adapter.notifyDataSetChanged();
                                 }
@@ -162,7 +152,6 @@ public class ProjectActivity extends ActionBarActivity {
         taskTitle.setText(edit_task.getName());
 
     alertDialogBuilder
-            //.setMessage(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)))
             .setCancelable(true)
             .setView(layout)
     .setPositiveButton("Ok",

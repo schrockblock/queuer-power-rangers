@@ -4,7 +4,6 @@ import android.content.Context;
 
 import com.queuerPowerRangers.app.Databases.TaskDataSource;
 
-import java.sql.SQLException;
 import java.util.Date;
 
 /**
@@ -13,10 +12,13 @@ import java.util.Date;
 public class Task {
     private int localId;
     private int id;
-    private String name;
     private int project_id;
     private int order;
+
     private boolean finished;
+
+    private String name;
+
     private Date created_at;
     private Date updated_at;
 
