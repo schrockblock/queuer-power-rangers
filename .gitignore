@@ -1,9 +1,6 @@
 .gradle
-/local.properties
-/.idea/workspace.xml
 .DS_Store
-.idea/*
-*queuer-power-rangers.iml
-*local.properties
-Lib/*
+.idea/
+local.properties
+Lib/
 *.iml
